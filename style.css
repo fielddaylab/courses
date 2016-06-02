@@ -52,3 +52,7 @@ body {
   margin-top: 70px;
   padding: 15px;
 }
+
+.fdl-video-selector-active {
+  font-weight: bold;
+}

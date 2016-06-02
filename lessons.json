@@ -28,12 +28,12 @@
       ]
     }
   , "videos":
-    [ {"name": "Creating a Siftr Account", "url": "https://www.youtube.com/watch?v=5ndU8XuUaOI"}
-    , {"name": "Making your first Siftr", "url": "https://www.youtube.com/watch?v=5ndU8XuUaOI"}
-    , {"name": "Customizing tags", "url": "https://www.youtube.com/watch?v=5ndU8XuUaOI"}
-    , {"name": "Collaboration", "url": "https://www.youtube.com/watch?v=5ndU8XuUaOI"}
-    , {"name": "Gathering field data", "url": "https://www.youtube.com/watch?v=5ndU8XuUaOI"}
-    , {"name": "Creating a team of citizen scientists", "url": "https://www.youtube.com/watch?v=5ndU8XuUaOI"}
+    [ {"name": "Creating a Siftr Account", "url": "https://www.youtube.com/embed/5ndU8XuUaOI"}
+    , {"name": "Making your first Siftr", "url": "https://www.youtube.com/embed/5ndU8XuUaOI"}
+    , {"name": "Customizing tags", "url": "https://www.youtube.com/embed/5ndU8XuUaOI"}
+    , {"name": "Collaboration", "url": "https://www.youtube.com/embed/5ndU8XuUaOI"}
+    , {"name": "Gathering field data", "url": "https://www.youtube.com/embed/5ndU8XuUaOI"}
+    , {"name": "Creating a team of citizen scientists", "url": "https://www.youtube.com/embed/5ndU8XuUaOI"}
     ]
   , "forum": "http://google.com"
   , "resources":

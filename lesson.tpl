@@ -4,6 +4,7 @@
   <title>Field Day Lab: {{title}}</title>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="lesson.js"></script>
 </head>
 <body>
 
@@ -37,13 +38,16 @@
   <h1>{{title}}</h1>
 
   <h2>Videos</h2>
-  <ul>
+  <div class="fdl-video-container">
+    <iframe id="fdl-video-iframe" width="420" height="315" src="{{url}}" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <ol>
     {{#videos}}
       <li>
-        <a href="{{url}}">{{name}}</a>
+        <a href="#" class="fdl-video-selector" onclick="selectVideo(this);" data-video-url="{{url}}">{{name}}</a>
       </li>
     {{/videos}}
-  </ul>
+  </ol>
 
   <h2>About this Class</h2>
   {{{description}}}
