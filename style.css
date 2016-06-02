@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.fdl-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  border-bottom: 1px solid black;
+  white-space: nowrap;
+}
+
+.fdl-nav-left, .fdl-nav-right {
+  flex: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fdl-nav-logo {
+  padding: 0 20px;
+  border-right: 1px solid black;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+
+.fdl-nav-courses {
+  text-transform: uppercase;
+  margin: 0 20px;
+}
+
+.fdl-nav-forums {
+  text-transform: uppercase;
+  margin: 0 20px;
+}
+
+.fdl-nav-about {
+  text-transform: uppercase;
+  margin: 0 20px;
+}
+
+.fdl-content {
+  margin-top: 70px;
+  padding: 15px;
+}

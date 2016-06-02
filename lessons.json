@@ -1,11 +1,47 @@
 { "lesson1":
   { "title": "Lesson 1 - Learn how to make stuff"
   , "description": "Eos inventore ipsa ipsum qui ut dolor atque. Error fugiat dolores id perspiciatis temporibus accusantium. Blanditiis tempora ut et eos id perspiciatis distinctio illo.\n\nIusto est est dicta sint quam ut. Ea vero molestiae exercitationem. Aliquam porro molestiae maiores ut architecto laborum. Rerum voluptatem illum accusantium minima sed qui voluptates. Eligendi dolorem nemo iure. Quis atque eius assumenda delectus.\n\nEarum est iste excepturi. Inventore et eius harum aliquam sed. Id reiciendis autem et molestias nihil quos. Magni inventore enim itaque harum vitae. Ea a dolorem vitae officiis quaerat."
-  , "author": "David Gagnon"
+  , "author":
+    { "name": "David Gagnon"
+    }
   }
 , "lesson2":
   { "title": "Lesson 2 - Learn how to make more stuff"
   , "description": "Sint maiores ut est qui sit tenetur. Illum vero quis eos voluptatem tenetur neque excepturi aspernatur. Doloremque sint aspernatur cum commodi et animi quo.\n\nSit et rerum quia hic. Debitis saepe iusto esse mollitia. Ea et amet labore veritatis ut. Et facere aspernatur enim.\n\nPlaceat est vitae vel molestiae qui et. Odio consequatur voluptate hic quia nisi quas eum. Accusantium similique pariatur dignissimos non quis officia dolores. Non ut eaque non voluptas non. Et omnis autem facilis pariatur enim porro quasi aliquid. Aut et id neque quibusdam."
-  , "author": "David Gagnon"
+  , "author":
+    { "name": "David Gagnon"
+    }
+  }
+, "siftr":
+  { "title": "Using Siftr for Field Work"
+  , "description": "Field Research presents its own unique set of challenges to the researcher. Follow along with Field Day Fellow Joe Riederer and learn how to use Siftr collaboratively to gather better data faster."
+  , "fold-image": "http://weneedfun.com/wp-content/uploads/2016/01/Landscape-wallpapers-3.jpg"
+  , "description-cont": "We count thirty Rebel ships, Lord Vader. But they're so small they're evading our turbo-lasers! We'll have to destroy them ship to ship. Get the crews to their fighters. Luke, let me know when you're going in. I'm on my way in now... Watch yourself! There's a lot of fire coming from the right side of that deflection tower. I'm on it. Squad leaders, we've picked up a new group of signals. Enemy fighters coming your way.\n\nLord Vader, I should have known. Only you could be so bold. The Imperial Senate will not sit for this, when they hear you've attacked a diplomatic... Don't play games with me, Your Highness. You weren't on any mercy mission this time. You passed directly through a restricted system. Several transmissions were beamed to this ship by Rebel spies. I want to know what happened to the plans they sent you. I don't know what you're talking about. I'm a member of the Imperial Senate on a diplomatic mission to Alderaan... You're a part of the Rebel Alliance...and a traitor. Take her away!"
+  , "author":
+    { "name": "Joe Riederer"
+    , "job": "Super hero science teacher and Field Day Fellow"
+    , "photo": "https://lh3.googleusercontent.com/DPKR9wd6oDY6dbsJum0AwEq1Od7wHH1AuccSg7qI_E643rgCgH7CPotucBEh_qLO40kx=w300"
+    , "links":
+      [ {"name": "Blog", "url": "http://google.com"}
+      , {"name": "Twitter", "url": "http://google.com"}
+      , {"name": "Facebook", "url": "http://google.com"}
+      ]
+    }
+  , "videos":
+    [ {"name": "Creating a Siftr Account", "url": "https://www.youtube.com/watch?v=5ndU8XuUaOI"}
+    , {"name": "Making your first Siftr", "url": "https://www.youtube.com/watch?v=5ndU8XuUaOI"}
+    , {"name": "Customizing tags", "url": "https://www.youtube.com/watch?v=5ndU8XuUaOI"}
+    , {"name": "Collaboration", "url": "https://www.youtube.com/watch?v=5ndU8XuUaOI"}
+    , {"name": "Gathering field data", "url": "https://www.youtube.com/watch?v=5ndU8XuUaOI"}
+    , {"name": "Creating a team of citizen scientists", "url": "https://www.youtube.com/watch?v=5ndU8XuUaOI"}
+    ]
+  , "forum": "http://google.com"
+  , "resources":
+    [ {"name": "Worksheets", "icon": "doc", "url": "http://google.com"}
+    , {"name": "Slides", "icon": "slides", "url": "http://google.com"}
+    , {"name": "Lesson PDF", "icon": "doc", "url": "http://google.com"}
+    ]
+  , "tags": ["research", "collaboration", "siftr", "locative"]
+  , "related": ["aris", "game-design", "unity"]
   }
 }

@@ -27,11 +27,15 @@ if (count($parts) === 1) {
   if (array_key_exists($url, $lessons)) {
     $lesson = $lessons[$url];
     $lesson['description'] = Markdown::defaultTransform($lesson['description']);
+    $lesson['description-cont'] = Markdown::defaultTransform($lesson['description-cont']);
     echo $mustache->render(file_get_contents('lesson.tpl'), $lesson);
   } else {
     header('HTTP/1.1 404 Not Found');
     echo 'Not found';
   }
-} else {
+} else if (count($parts) === 0) {
   echo 'Welcome to Field Day Learn.';
+} else {
+  header('HTTP/1.1 404 Not Found');
+  echo 'Not found';
 }
