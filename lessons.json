@@ -41,7 +41,21 @@
     , {"name": "Slides", "icon": "slides", "url": "http://google.com"}
     , {"name": "Lesson PDF", "icon": "doc", "url": "http://google.com"}
     ]
-  , "tags": ["research", "collaboration", "siftr", "locative"]
+  , "tags":
+    [ {"tag": "research"}
+    , {"tag": "collaboration"}
+    , {"tag": "siftr"}
+    , {"tag": "locative"}
+    ]
   , "related": ["aris", "game-design", "unity"]
+  }
+, "aris":
+  { "title": "Stories & Tours with Aris"
+  }
+, "game-design":
+  { "title": "Intro to Game Design"
+  }
+, "unity":
+  { "title": "Developing 3D games in Unity"
   }
 }

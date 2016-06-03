@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Field Day Lab: {{title}}</title>
+  <title>Field Day Learn: {{title}}</title>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="style.css">
   <script type="text/javascript" src="lesson.js"></script>
@@ -11,10 +11,12 @@
 <div class="fdl-nav">
   <div class="fdl-nav-left">
     <div class="fdl-nav-logo">
-      <img src="assets/logo.png" alt="Field Day Learn">
+      <a href="/">
+        <img src="assets/logo.png" alt="Field Day Learn">
+      </a>
     </div>
     <div class="fdl-nav-courses">
-      <a href="#">
+      <a href="/">
         Courses
       </a>
     </div>
@@ -37,43 +39,76 @@
 
   <h1>{{title}}</h1>
 
-  <h2>Videos</h2>
-  <div class="fdl-video-container">
-    <iframe id="fdl-video-iframe" width="420" height="315" src="{{url}}" frameborder="0" allowfullscreen></iframe>
+  <h2>{{count-lessons}}</h2>
+  <div class="fdl-video-player">
+    <div class="fdl-video-container">
+      <iframe id="fdl-video-iframe" src="{{url}}" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <ol class="fdl-video-list">
+      {{#videos}}
+        <li>
+          <a href="#" class="fdl-video-selector" onclick="selectVideo(this);" data-video-url="{{url}}">{{name}}</a>
+        </li>
+      {{/videos}}
+    </ol>
   </div>
-  <ol>
-    {{#videos}}
-      <li>
-        <a href="#" class="fdl-video-selector" onclick="selectVideo(this);" data-video-url="{{url}}">{{name}}</a>
-      </li>
-    {{/videos}}
-  </ol>
-
-  <h2>About this Class</h2>
-  {{{description}}}
-  <img src="{{fold-image}}">
-  {{{description-cont}}}
 
   <h2><a href="{{forum}}">Course Forum</a></h2>
 
-  <h2>Lesson Resources</h2>
-  <ul>
-    {{#resources}}
-      <li>
-        <a href="{{url}}">{{name}}</a>
-      </li>
-    {{/resources}}
-  </ul>
+  <div class="fdl-columns">
 
-  <h2>Author</h2>
-  {{#author}}
-    <img src="{{photo}}">
-    <h3>{{name}}</h3>
-    <h4>{{job}}</h4>
-    {{#links}}
-      <a href="{{url}}">{{name}}</a>
-    {{/links}}
-  {{/author}}
+    <div class="fdl-column-content">
+      <h2>About this Class</h2>
+      {{{description}}}
+      <img class="fdl-fold-image" src="{{fold-image}}">
+      {{{description-cont}}}
+    </div>
+
+    <div class="fdl-column-sidebar">
+
+      <h2>Author</h2>
+      <div class="fdl-author">
+        {{#author}}
+          <div class="fdl-author-photo" style="background-image: url({{photo}});"></div>
+          <div class="fdl-author-info">
+            <h3>{{name}}</h3>
+            <h4>{{job}}</h4>
+            {{#links}}
+              <a href="{{url}}">{{name}}</a>
+            {{/links}}
+          </div>
+        {{/author}}
+      </div>
+
+      <hr>
+
+      <h2>Lesson Resources</h2>
+      <ul>
+        {{#resources}}
+          <li>
+            <a href="{{url}}">{{name}}</a>
+          </li>
+        {{/resources}}
+      </ul>
+
+      <hr>
+
+      <p>
+        {{#tags}}
+          [{{tag}}]
+        {{/tags}}
+      </p>
+
+    </div>
+
+  </div>
+
+  <h2>Related Courses</h2>
+  <ul>
+    {{#related}}
+      <li>{{title}}</li>
+    {{/related}}
+  </ul>
 
 </div>
 

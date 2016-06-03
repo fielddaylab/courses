@@ -28,13 +28,28 @@ if (count($parts) === 1) {
     $lesson = $lessons[$url];
     $lesson['description'] = Markdown::defaultTransform($lesson['description']);
     $lesson['description-cont'] = Markdown::defaultTransform($lesson['description-cont']);
+    $related = array();
+    foreach ($lesson['related'] as $rel) {
+      $related[] = $lessons[$rel];
+    }
+    $lesson['related'] = $related;
+    $n = count($lesson['videos']);
+    $lesson['count-lessons'] = $n . ' video' . ($n === 1 ? '' : 's');
     echo $mustache->render(file_get_contents('lesson.tpl'), $lesson);
   } else {
     header('HTTP/1.1 404 Not Found');
     echo 'Not found';
   }
 } else if (count($parts) === 0) {
-  echo 'Welcome to Field Day Learn.';
+  $ary = array();
+  $ary['lessons'] = array();
+  foreach (array_keys($lessons) as $k) {
+    $lesson = array();
+    $lesson['url'] = $k;
+    $lesson['lesson'] = $lessons[$k];
+    $ary['lessons'][] = $lesson;
+  }
+  echo $mustache->render(file_get_contents('home.tpl'), $ary);
 } else {
   header('HTTP/1.1 404 Not Found');
   echo 'Not found';
