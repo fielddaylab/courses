@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <script type="text/javascript" src="lesson.js"></script>
 </head>
-<body>
+<body class="fdl-page-lesson">
 
 {{{navbar}}}
 
@@ -17,7 +17,7 @@
   <h2>{{count-lessons}}</h2>
   <div class="fdl-video-player">
     <div class="fdl-video-container">
-      <iframe id="fdl-video-iframe" src="{{url}}" frameborder="0" allowfullscreen></iframe>
+      <iframe id="fdl-video-iframe" allowfullscreen></iframe>
     </div>
     <ol class="fdl-video-list">
       {{#videos}}
@@ -35,7 +35,7 @@
     <div class="fdl-column-content">
       <h2>About this Class</h2>
       {{{description}}}
-      <img class="fdl-fold-image" src="{{fold-image}}">
+      <img class="fdl-fold-image" src="{{fold-image}}" alt="">
       {{{description-cont}}}
     </div>
 
@@ -48,9 +48,11 @@
           <div class="fdl-author-info">
             <h3>{{name}}</h3>
             <h4>{{job}}</h4>
-            {{#links}}
-              <a href="{{url}}">{{name}}</a>
-            {{/links}}
+            <p>
+              {{#links}}
+                <a href="{{url}}">{{name}}</a>
+              {{/links}}
+            </p>
           </div>
         {{/author}}
       </div>

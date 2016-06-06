@@ -84,6 +84,7 @@ body {
 #fdl-video-iframe {
   width: 100%;
   height: 100%;
+  border: 0;
 }
 
 .fdl-video-list {
@@ -134,10 +135,16 @@ body {
   background-color: white;
 }
 
+.fdl-page-home .fdl-footer {
+  background-color: rgb(246,246,243);
+}
+
 .fdl-footer-desert {
   box-sizing: border-box:
   width: 100%;
-  height: 200px;
+  height: 0;
+  padding-top: 200px;
+  overflow: hidden;
   background-image: url('assets/desert-with-text.png');
   background-size: contain;
   background-repeat: no-repeat;
@@ -162,4 +169,56 @@ body {
 .fdl-footer-logo {
   height: 60px;
   margin: 20px;
+}
+
+.fdl-courses-header {
+  text-align: center;
+  padding: 50px;
+  background-color: rgb(246,246,243);
+}
+
+.fdl-courses-header img {
+  height: 45px;
+}
+
+.fdl-courses-cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(246,246,243);
+  padding-bottom: 50px;
+}
+
+.fdl-courses-cards a {
+  text-decoration: none;
+}
+
+.fdl-courses-card {
+  width: 250px;
+  display: inline-block;
+  background-color: white;
+  margin: 10px;
+  border-bottom: 3px solid rgb(225,225,224);
+}
+
+.fdl-courses-card-img {
+  height: 150px;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fdl-courses-card-title {
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
 }
