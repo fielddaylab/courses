@@ -4,13 +4,31 @@
   <title>Field Day Learn</title>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script type="text/javascript" src="lesson.js"></script>
+  <script type="text/javascript" src="home.js"></script>
 </head>
 <body class="fdl-page-home">
 
 {{{navbar}}}
 
-<div class="fdl-content">
+<div class="fdl-courses-carousel">
+  <div id="fdl-carousel-page-0" class="fdl-courses-carousel-page fdl-courses-carousel-page-on">
+    <div class="fdl-carousel-page-content">
+      <h2>Location Based Games with ARIS</h2>
+      <p>Whether it's an interactive tour or a scavenger hunt, learn how to build engaging games with the ARIS platform.</p>
+      <p><span class="fdl-start-button">START COURSE</span></p>
+    </div>
+  </div>
+  <div id="fdl-carousel-page-1" class="fdl-courses-carousel-page">
+    Page 2
+  </div>
+  <div id="fdl-carousel-page-2" class="fdl-courses-carousel-page">
+    Page 3
+  </div>
+  <div class="fdl-carousel-selectors">
+    <a class="fdl-carousel-selector" href="#" onClick="selectCarousel(this);" data-carousel-page="0">1</a>
+    <a class="fdl-carousel-selector" href="#" onClick="selectCarousel(this);" data-carousel-page="1">2</a>
+    <a class="fdl-carousel-selector" href="#" onClick="selectCarousel(this);" data-carousel-page="2">3</a>
+  </div>
 </div>
 
 <div class="fdl-courses-header">
@@ -22,7 +40,11 @@
   {{#lessons}}
     <a href="{{url}}">
       <div class="fdl-courses-card">
-        <div class="fdl-courses-card-img" style="background-image: url('{{#lesson}}{{fold-image}}{{/lesson}}');"></div>
+        <div class="fdl-courses-card-img" style="background-image: url('{{#lesson}}{{fold-image}}{{/lesson}}');">
+          <div class="fdl-courses-card-arrow-box">
+            <img class="fdl-courses-card-arrow" src="assets/course-arrow.png">
+          </div>
+        </div>
         <h2 class="fdl-courses-card-title">
           {{#lesson}}
             {{title}}
