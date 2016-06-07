@@ -20,7 +20,7 @@
   , "author":
     { "name": "Joe Riederer"
     , "job": "Super hero science teacher and Field Day Fellow"
-    , "photo": "https://lh3.googleusercontent.com/DPKR9wd6oDY6dbsJum0AwEq1Od7wHH1AuccSg7qI_E643rgCgH7CPotucBEh_qLO40kx=w300"
+    , "photo": "assets/joe.png"
     , "links":
       [ {"name": "Blog", "url": "http://google.com"}
       , {"name": "Twitter", "url": "http://google.com"}

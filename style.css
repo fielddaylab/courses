@@ -134,10 +134,79 @@ body {
   margin-left: 20px;
 }
 
+.fdl-author-info h3 {
+  margin: 0;
+}
+
+.fdl-author-links a {
+  font-style: italic;
+  text-transform: lowercase;
+  text-decoration: none;
+  color: rgb(49,29,218);
+  margin-right: 15px;
+}
+
+.fdl-column-sidebar hr {
+  margin: 40px 0;
+}
+
+.fdl-resources {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
+  line-height: 40px;
+}
+
+.fdl-resources a {
+  text-decoration: none;
+  color: rgb(49,29,218);
+}
+
+.fdl-resource-doc {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  background-image: url('assets/document_pie_chart.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+}
+
+.fdl-resource-slides {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  background-image: url('assets/presentation_pie.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+}
+
+.fdl-tags {
+  text-align: center;
+  line-height: 35px;
+}
+
+.fdl-tags a {
+  text-decoration: none;
+}
+
+.fdl-tag {
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  border-radius: 999px;
+  margin: 3px;
+}
+
 .fdl-footer {
   width: 100%;
   text-align: center;
   background-color: white;
+  padding-top: 30px;
 }
 
 .fdl-page-home .fdl-footer {
@@ -291,6 +360,14 @@ body {
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
+}
+
+#fdl-carousel-page-1 {
+  background-color: #88b;
+}
+
+#fdl-carousel-page-2 {
+  background-color: #f8f;
 }
 
 .fdl-carousel-page-content {

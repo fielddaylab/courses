@@ -47,8 +47,8 @@
           <div class="fdl-author-photo" style="background-image: url({{photo}});"></div>
           <div class="fdl-author-info">
             <h3>{{name}}</h3>
-            <h4>{{job}}</h4>
-            <p>
+            <p>{{job}}</p>
+            <p class="fdl-author-links">
               {{#links}}
                 <a href="{{url}}">{{name}}</a>
               {{/links}}
@@ -60,19 +60,24 @@
       <hr>
 
       <h2>Lesson Resources</h2>
-      <ul>
+      <ul class="fdl-resources">
         {{#resources}}
           <li>
-            <a href="{{url}}">{{name}}</a>
+            <a href="{{url}}">
+              <span class="fdl-resource-{{icon}}"></span>
+              {{name}}
+            </a>
           </li>
         {{/resources}}
       </ul>
 
       <hr>
 
-      <p>
+      <p class="fdl-tags">
         {{#tags}}
-          [{{tag}}]
+          <a href="tag/{{tag}}">
+            <span class="fdl-tag">{{tag}}</span>
+          </a>
         {{/tags}}
       </p>
 
@@ -80,17 +85,30 @@
 
   </div>
 
-  <h2>Related Courses</h2>
-  <ul>
-    {{#related}}
-      <li>
-        <a href="/{{url}}">
-          {{#lesson}}{{title}}{{/lesson}}
-        </a>
-      </li>
-    {{/related}}
-  </ul>
+</div>
 
+<div class="fdl-courses-header">
+  <img src="assets/cubes.png" alt="">
+  <h1>RELATED COURSES</h1>
+</div>
+
+<div class="fdl-courses-cards">
+  {{#related}}
+    <a href="{{url}}">
+      <div class="fdl-courses-card">
+        <div class="fdl-courses-card-img" style="background-image: url('{{#lesson}}{{fold-image}}{{/lesson}}');">
+          <div class="fdl-courses-card-arrow-box">
+            <img class="fdl-courses-card-arrow" src="assets/course-arrow.png">
+          </div>
+        </div>
+        <h2 class="fdl-courses-card-title">
+          {{#lesson}}
+            {{title}}
+          {{/lesson}}
+        </h2>
+      </div>
+    </a>
+  {{/related}}
 </div>
 
 {{{footer}}}
