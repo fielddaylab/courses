@@ -10,25 +10,43 @@
 
 {{{navbar}}}
 
-<div class="fdl-content">
-
-  <h1>{{title}}</h1>
-
-  <h2>{{count-lessons}}</h2>
+<div class="fdl-video-section">
+  <div class="fdl-video-headers">
+    <h1>{{title}}</h1>
+    <h2>{{count-lessons}}</h2>
+  </div>
   <div class="fdl-video-player">
     <div class="fdl-video-container">
       <iframe id="fdl-video-iframe" allowfullscreen></iframe>
     </div>
     <ol class="fdl-video-list">
       {{#videos}}
-        <li>
-          <a href="#" class="fdl-video-selector" onclick="selectVideo(this);" data-video-url="{{url}}">{{name}}</a>
-        </li>
+        <div class="fdl-video-selector-box">
+          <a href="#" class="fdl-video-selector" onclick="selectVideo(this);" data-video-url="{{url}}">
+            <li>
+              {{name}}
+            </li>
+          </a>
+        </div>
       {{/videos}}
     </ol>
   </div>
+</div>
 
-  <h2><a href="{{forum}}">Course Forum</a></h2>
+<div class="fdl-content-nav">
+  <div class="fdl-content-nav-left">
+    <span class="fdl-content-nav-about">ABOUT</span>
+    <a href="{{forum}}" class="fdl-content-nav-forum">COURSE FORUM</a>
+  </div>
+  <div class="fdl-content-nav-right">
+    <a class="fdl-content-nav-share" href="#">
+      <img class="fdl-content-nav-share-icon" src="assets/share.png">
+      SHARE
+    </a>
+  </div>
+</div>
+
+<div class="fdl-content">
 
   <div class="fdl-columns">
 
