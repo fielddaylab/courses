@@ -8,7 +8,7 @@ require_once 'deps/markdown/Michelf/Markdown.inc.php';
 use \Michelf\Markdown;
 
 $parts = array();
-foreach (explode('/', $_SERVER['REQUEST_URI']) as $part) {
+foreach (explode('/', substr($_SERVER['REQUEST_URI'], strlen(dirname($_SERVER['PHP_SELF'])))) as $part) {
   if ($part !== '') {
     $parts[] = $part;
   }
@@ -27,6 +27,7 @@ if ($navbar === false) {
   echo 'Internal error';
   die;
 }
+$navbar = $mustache->render($navbar, array('home-link' => dirname($_SERVER['PHP_SELF']) . '/'));
 
 $footer = file_get_contents('footer.tpl');
 if ($footer === false) {

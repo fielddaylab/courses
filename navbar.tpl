@@ -1,12 +1,12 @@
 <nav class="fdl-nav">
   <div class="fdl-nav-left">
     <div class="fdl-nav-logo">
-      <a href="/">
+      <a href="{{home-link}}">
         <img src="assets/logo.png" alt="Field Day Learn">
       </a>
     </div>
     <div class="fdl-nav-courses">
-      <a href="/">
+      <a href="{{home-link}}">
         Courses
       </a>
     </div>
