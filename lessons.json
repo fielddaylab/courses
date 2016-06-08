@@ -29,7 +29,7 @@
     }
   , "videos":
     [ {"name": "Creating a Siftr Account", "url": "https://www.youtube.com/embed/5ndU8XuUaOI"}
-    , {"name": "Making your first Siftr", "url": "https://www.youtube.com/embed/5ndU8XuUaOI"}
+    , {"name": "Making your first Siftr", "url": "https://player.vimeo.com/video/169697352"}
     , {"name": "Customizing tags", "url": "https://www.youtube.com/embed/5ndU8XuUaOI"}
     , {"name": "Collaboration", "url": "https://www.youtube.com/embed/5ndU8XuUaOI"}
     , {"name": "Gathering field data", "url": "https://www.youtube.com/embed/5ndU8XuUaOI"}

@@ -15,3 +15,21 @@ document.addEventListener('DOMContentLoaded', function(){
     selectVideo(vids[0]);
   }
 });
+
+function openModal() {
+  document.getElementById('fdl-modal-share').classList.remove('fdl-modal-off');
+}
+
+function closeModal() {
+  document.getElementById('fdl-modal-share').classList.add('fdl-modal-off');
+}
+
+function modalURL() {
+  document.getElementById('fdl-modal-share').classList.add('fdl-modal-url');
+  document.getElementById('fdl-modal-share').classList.remove('fdl-modal-email');
+}
+
+function modalEmail() {
+  document.getElementById('fdl-modal-share').classList.remove('fdl-modal-url');
+  document.getElementById('fdl-modal-share').classList.add('fdl-modal-email');
+}

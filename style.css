@@ -493,3 +493,75 @@ body {
   border-radius: 999px;
   display: inline-block;
 }
+
+#fdl-modal-share {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: rgba(255,255,255,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fdl-modal-off {
+  display: none !important;
+}
+
+.fdl-modal-share-box {
+  width: 800px;
+  height: 600px;
+  background-color: white;
+  border-radius: 15px;
+  border: 2px solid black;
+  position: relative;
+}
+
+.fdl-modal-share-close {
+  position: absolute;
+  right: -60px;
+  top: -60px;
+  width: 60px;
+  height: 60px;
+}
+
+.fdl-share-tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  height: 80px;
+  border-bottom: 2px solid black;
+}
+
+.fdl-share-tab-url, .fdl-share-tab-email {
+  margin-left: 40px;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+}
+
+.fdl-share-tab-icon {
+  width: 35px;
+  margin-right: 15px;
+}
+
+.fdl-modal-url .fdl-share-tab-url, .fdl-modal-email .fdl-share-tab-email {
+  border-bottom: 8px solid rgb(49,29,218);
+}
+
+.fdl-modal-url .fdl-share-email-content, .fdl-modal-email .fdl-share-url-content {
+  display: none !important;
+}
+
+.fdl-share-content {
+  padding: 40px;
+}

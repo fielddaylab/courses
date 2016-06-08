@@ -39,7 +39,7 @@
     <a href="{{forum}}" class="fdl-content-nav-forum">COURSE FORUM</a>
   </div>
   <div class="fdl-content-nav-right">
-    <a class="fdl-content-nav-share" href="#">
+    <a class="fdl-content-nav-share" href="#" onClick="openModal();">
       <img class="fdl-content-nav-share-icon" src="assets/share.png">
       SHARE
     </a>
@@ -130,6 +130,32 @@
 </div>
 
 {{{footer}}}
+
+<div id="fdl-modal-share" class="fdl-modal-off fdl-modal-url" onclick="closeModal();">
+  <div class="fdl-modal-share-box" onclick="event.stopPropagation();">
+    <a href="#" onclick="closeModal();">
+      <img src="assets/modal-x.png" class="fdl-modal-share-close">
+    </a>
+    <div class="fdl-share-tabs">
+      <a href="#" class="fdl-share-tab-url" onclick="modalURL();">
+        <img class="fdl-share-tab-icon" src="assets/chain-link.png">
+        SHARE URL
+      </a>
+      <a href="#" class="fdl-share-tab-email" onclick="modalEmail();">
+        <img class="fdl-share-tab-icon" src="assets/email.png">
+        SEND EMAIL
+      </a>
+    </div>
+    <div class="fdl-share-content fdl-share-url-content">
+      <h1>Course sharing URL</h1>
+      <p>Copy and paste the link below into emails, chats, or browsers.</p>
+    </div>
+    <div class="fdl-share-content fdl-share-email-content">
+      <h1>Share course in email</h1>
+      <p>Invite someone to check out this course!</p>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
