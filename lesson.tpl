@@ -9,7 +9,7 @@
 <body class="fdl-page-lesson fdl-tab-about">
 
 {{{navbar}}}
-<div class="fdl-video-wrapper">
+<div class="fdl-video-wrapper" style="background-image: url('{{splash-image-blur}}');">
   <div class="fdl-video-section">
     <div class="fdl-video-headers">
       <h1>{{title}}</h1>
@@ -22,7 +22,7 @@
       <ol class="fdl-video-list">
         {{#videos}}
           <div class="fdl-video-selector-box">
-            <a href="#" class="fdl-video-selector" onclick="selectVideo(this); event.preventDefault();" data-video-url="{{url}}">
+            <a href="#" class="fdl-video-selector" onclick="selectVideo(this); event.preventDefault();" data-video-url="{{url}}" data-video-index="{{index}}">
               <li>
                 {{name}}
               </li>
@@ -52,10 +52,14 @@
   <div class="fdl-columns">
 
     <div class="fdl-column-content">
-      <h2 class="about-lesson">About this Class</h2>
-      {{{description}}}
-      <img class="fdl-fold-image" src="{{fold-image}}" alt="">
-      {{{description-cont}}}
+      <h2 id="about-lesson" class="about-lesson">About this Class</h2>
+      <div class="fdl-video-descriptions">
+        {{#videos}}
+          <div class="fdl-video-description">
+            {{{description}}}
+          </div>
+        {{/videos}}
+      </div>
     </div>
 
     <div class="fdl-column-sidebar">
@@ -117,7 +121,7 @@
   {{#related}}
     <a href="{{url}}">
       <div class="fdl-courses-card">
-        <div class="fdl-courses-card-img" style="background-image: url('{{#lesson}}{{fold-image}}{{/lesson}}');">
+        <div class="fdl-courses-card-img" style="background-image: url('{{#lesson}}{{splash-image}}{{/lesson}}');">
           <div class="fdl-courses-card-arrow-box">
             <img class="fdl-courses-card-arrow" src="assets/course-arrow.png">
           </div>
@@ -154,7 +158,7 @@
       <p>Copy and paste the link below into emails, chats, or browsers.</p>
       <div class="fdl-share-link-row">
         <div class="fdl-share-link">
-          <span>https://fielddaylearn.org/{{url}}</span>
+          <span>https://fielddaylab.wisc.edu/courses/{{url}}</span>
           <a class="fdl-share-qr-button" href="#" onclick="event.preventDefault();"><img src="assets/qr-code.png"></a>
         </div>
         <a class="fdl-share-link-copy" href="#" onclick="event.preventDefault();">COPY</a>

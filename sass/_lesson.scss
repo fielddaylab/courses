@@ -32,7 +32,6 @@
 }
 
 .fdl-video-wrapper {
-  background-image: url('../assets/blur-bg.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -115,4 +114,12 @@
     background: $hover-yellow;
     border-bottom: 1px solid $hover-yellow;
   }
+}
+
+.fdl-video-description {
+  display: none;
+}
+
+.fdl-video-description.fdl-video-description-on {
+  display: block;
 }

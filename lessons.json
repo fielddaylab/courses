@@ -14,9 +14,8 @@
   }
 , "siftr":
   { "title": "Using Siftr for Field Work"
-  , "description": "Field Research presents its own unique set of challenges to the researcher. Follow along with Field Day Fellow Joe Riederer and learn how to use Siftr collaboratively to gather better data faster."
-  , "fold-image": "http://weneedfun.com/wp-content/uploads/2016/01/Landscape-wallpapers-3.jpg"
-  , "description-cont": "\n\n * In this course you will learn how to plan and build an ARIS tour \n\n * In addition to learning more about ARIS this course will introduce you to a basic design process that you’ll be able to use for future projects. \n\n * This course will take about 4 hours to complete. \n\n * To complete this course you’ll need: \n\n * a computer with Internet access .. \n\n * an iOS device, like an iPad, iPod Touch or iPhone that can run ARIS. \n\n * If you want to print some of the handouts, you’ll also need access to a printer. \n\n * Prereq: You should have completed the ARIS 101 course before doing this course \n\n * By the end of this course you will have created a map-based tour of your neighborhood that you can share with other people. \n\n * If you need help along the way, reach out and post your questions to the forum. If you have questions about ARIS you can also checkout the ARIS Manual or use the ARIS forum. There are links to each of these in the course resources. We count thirty Rebel ships, Lord Vader. But they're so small they're evading our turbo-lasers! We'll have to destroy them ship to ship. Get the crews to their fighters. Luke, let me know when you're going in. I'm on my way in now... Watch yourself! There's a lot of fire coming from the right side of that deflection tower. I'm on it. Squad leaders, we've picked up a new group of signals. Enemy fighters coming your way.\n\nLord Vader, I should have known. Only you could be so bold. The Imperial Senate will not sit for this, when they hear you've attacked a diplomatic... Don't play games with me, Your Highness. You weren't on any mercy mission this time. You passed directly through a restricted system. Several transmissions were beamed to this ship by Rebel spies. I want to know what happened to the plans they sent you. I don't know what you're talking about. I'm a member of the Imperial Senate on a diplomatic mission to Alderaan... You're a part of the Rebel Alliance...and a traitor. Take her away!"
+  , "splash-image": "http://weneedfun.com/wp-content/uploads/2016/01/Landscape-wallpapers-3.jpg"
+  , "splash-image-blur": "assets/blur-bg.jpg"
   , "author":
     { "name": "Joe Riederer"
     , "job": "Super hero science teacher and Field Day Fellow"
@@ -28,12 +27,27 @@
       ]
     }
   , "videos":
-    [ {"name": "Creating a Siftr Account", "url": "https://www.youtube.com/embed/5ndU8XuUaOI"}
-    , {"name": "Making your first Siftr", "url": "https://player.vimeo.com/video/169697352"}
-    , {"name": "Customizing tags", "url": "https://www.youtube.com/embed/5ndU8XuUaOI"}
-    , {"name": "Collaboration", "url": "https://www.youtube.com/embed/5ndU8XuUaOI"}
-    , {"name": "Gathering field data", "url": "https://www.youtube.com/embed/5ndU8XuUaOI"}
-    , {"name": "Creating a team of citizen scientists", "url": "https://www.youtube.com/embed/5ndU8XuUaOI"}
+    [ { "name": "Introduction", "url": "https://www.youtube.com/embed/5ndU8XuUaOI"
+      , "description": "\n\n * In this course you will learn how to plan and build an ARIS tour \n\n * In addition to learning more about ARIS this course will introduce you to a basic design process that you’ll be able to use for future projects. \n\n * This course will take about 4 hours to complete. \n\n * To complete this course you’ll need: \n\n * a computer with Internet access .. \n\n * an iOS device, like an iPad, iPod Touch or iPhone that can run ARIS. \n\n * If you want to print some of the handouts, you’ll also need access to a printer. \n\n * Prereq: You should have completed the ARIS 101 course before doing this course \n\n * By the end of this course you will have created a map-based tour of your neighborhood that you can share with other people. \n\n * If you need help along the way, reach out and post your questions to the forum. If you have questions about ARIS you can also checkout the ARIS Manual or use the ARIS forum. There are links to each of these in the course resources. We count thirty Rebel ships, Lord Vader. But they're so small they're evading our turbo-lasers! We'll have to destroy them ship to ship. Get the crews to their fighters. Luke, let me know when you're going in. I'm on my way in now... Watch yourself! There's a lot of fire coming from the right side of that deflection tower. I'm on it. Squad leaders, we've picked up a new group of signals. Enemy fighters coming your way.\n\nLord Vader, I should have known. Only you could be so bold. The Imperial Senate will not sit for this, when they hear you've attacked a diplomatic... Don't play games with me, Your Highness. You weren't on any mercy mission this time. You passed directly through a restricted system. Several transmissions were beamed to this ship by Rebel spies. I want to know what happened to the plans they sent you. I don't know what you're talking about. I'm a member of the Imperial Senate on a diplomatic mission to Alderaan... You're a part of the Rebel Alliance...and a traitor. Take her away!"
+      }
+    , { "name": "Creating a Siftr Account", "url": "https://www.youtube.com/embed/5ndU8XuUaOI"
+      , "description": "This is *lesson* 1."
+      }
+    , { "name": "Making your first Siftr", "url": "https://player.vimeo.com/video/169697352"
+      , "description": "This is lesson 2."
+      }
+    , { "name": "Customizing tags", "url": "https://www.youtube.com/embed/5ndU8XuUaOI"
+      , "description": "This is lesson 3."
+      }
+    , { "name": "Collaboration", "url": "https://www.youtube.com/embed/5ndU8XuUaOI"
+      , "description": "This is lesson 4."
+      }
+    , { "name": "Gathering field data", "url": "https://www.youtube.com/embed/5ndU8XuUaOI"
+      , "description": "This is lesson 5."
+      }
+    , { "name": "Creating a team of citizen scientists", "url": "https://www.youtube.com/embed/5ndU8XuUaOI"
+      , "description": "This is lesson 6."
+      }
     ]
   , "forum": "http://google.com"
   , "resources":

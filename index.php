@@ -65,8 +65,12 @@ if (count($parts) === 1) {
   if (array_key_exists($url, $lessons)) {
     $lesson = $lessons[$url];
     $lesson['url'] = $url;
-    $lesson['description'] = Markdown::defaultTransform($lesson['description']);
-    $lesson['description-cont'] = Markdown::defaultTransform($lesson['description-cont']);
+    $i = 0;
+    foreach ($lesson['videos'] as &$video) {
+      $video['description'] = Markdown::defaultTransform($video['description']);
+      $video['index'] = $i;
+      $i++;
+    }
     $lesson['related'] = getLessons($lesson['related']);
     $n = count($lesson['videos']);
     $lesson['count-lessons'] = $n . ' video' . ($n === 1 ? '' : 's');
