@@ -3,7 +3,8 @@
 <head>
   <title>Field Day Learn</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="css/all.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans|Montserrat' rel='stylesheet' type='text/css'>
   <script type="text/javascript" src="home.js"></script>
 </head>
 <body class="fdl-page-home">
