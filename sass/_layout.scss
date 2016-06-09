@@ -14,101 +14,27 @@
   background-color: white;
 }
 
-.fdl-video-section {
-  background-image: url('../assets/blur-bg.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
-  padding: 40px;
-}
-
-.fdl-video-headers {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
-  letter-spacing: 2px;
-}
-
-.fdl-video-headers h1 {
-  font-weight: normal;
-  text-transform: uppercase;
-  font-size: 22px;
-}
-
-.fdl-video-headers h2 {
-  padding-right: 290px;
-  font-weight: normal;
-  font-style: italic;
-  font-size: 19px;
-}
-
-.fdl-video-selector-active {
-  font-weight: bold;
-}
-
-.fdl-video-player {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  height: 500px;
-}
-
-.fdl-video-container {
-  flex: 1;
-  height: 100%;
-}
-
-#fdl-video-iframe {
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
-.fdl-video-list {
-  width: 350px;
-  background-color: white;
-  margin: 0;
-  overflow-y: auto;
-  color: black;
-  list-style-position: inside;
-  padding: 0;
-  border-left: 1px solid $border-gray;
-}
-
-.fdl-video-list li {
-  padding: 13px;
-  margin: 0;
-}
-
-.fdl-video-selector-box {
-  border-bottom: 1px solid $border-gray;
-}
-
-.fdl-video-list a {
-  text-decoration: none;
-  color: black;
-}
-
 .fdl-columns {
   display: flex;
   flex-direction: row;
   width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 .fdl-column-content {
   flex: 1;
-  margin: 20px;
+  margin: 40px;
 }
 
 .fdl-column-sidebar {
   width: 400px;
-  margin: 20px;
+  margin: 40px;
 }
 
 .fdl-fold-image {
   width: 100%;
+  margin: 20px 0px;
 }
 
 .fdl-author {
@@ -192,9 +118,12 @@
 .fdl-tag {
   color: white;
   background-color: black;
-  padding: 5px 10px;
+  padding: 5px 15px;
   border-radius: 999px;
   margin: 3px;
+  margin-bottom: 9px;
+  display: inline-block;
+  font-size: 12px;
 }
 
 .fdl-footer {
@@ -330,8 +259,9 @@
 }
 
 .fdl-modal-share-box {
-  width: 800px;
-  height: 600px;
+  width: 600px;
+  height: auto;
+  margin-top: 50px;
   background-color: white;
   border-radius: 15px;
   border: 2px solid black;
