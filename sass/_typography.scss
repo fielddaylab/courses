@@ -3,6 +3,7 @@
 
 body {
   font-variant-ligatures: no-common-ligatures;
+  font-size: 1em;
 }
 
 h1, h2, h3, h4, h5, h6, {
@@ -11,10 +12,11 @@ h1, h2, h3, h4, h5, h6, {
 }
 
 p {
-  font-size: 15px;
-  letter-spacing: 2px;
-  line-height: 31px;
+  font-size: 1.1em;
+  letter-spacing: .13em;
+  line-height: 2em;
   color: $medium-text;
+  font-weight: 300;
   &.small {
     font-size: 12px;
     letter-spacing: 1px;
@@ -27,4 +29,8 @@ a {
   letter-spacing: 3px;
   font-size: 14px;
   transition: all .1s ease-in-out;
+}
+
+li {
+  margin-bottom: 2em;
 }

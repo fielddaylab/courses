@@ -17,6 +17,18 @@
     font-size: 30px;
   }
 
+  ul {
+    border-left: 5px solid $hover-yellow;
+    padding: 0px 30px 0px 60px;
+    margin: 40px 0px;
+  }
+
+  li>ul {
+    border-left: none;
+    padding: 0px 0px 0px 50px;
+    margin: 0px 0px;
+  }
+
 }
 
 .fdl-video-wrapper {
