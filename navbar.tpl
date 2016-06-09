@@ -18,7 +18,7 @@
   </div>
   <div class="fdl-nav-right">
     <div class="fdl-nav-about">
-      <a href="#">
+      <a href="https://fielddaylab.wisc.edu/">
         About Field Day
       </a>
     </div>
