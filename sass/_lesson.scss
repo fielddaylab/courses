@@ -1,0 +1,106 @@
+/*-- Lesson styles
+------------------------------------------*/
+.fdl-page-lesson {
+  h2, h3 {
+    font-weight: 300;
+    letter-spacing: 3px;
+  }
+
+  hr {
+    background: $border-gray;
+    border: none;
+    outline: none;
+    height: 1px;
+  }
+
+  .about-lesson {
+    font-size: 30px;
+  }
+
+}
+
+.fdl-video-wrapper {
+  background-image: url('../assets/blur-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2vw 0vw;
+}
+
+.fdl-video-section {
+  color: white;
+  padding: 40px;
+  max-width:1500px;
+  margin: 0 auto;
+}
+
+.fdl-video-headers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  letter-spacing: 2px;
+}
+
+.fdl-video-headers {
+  h1 {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #fff;
+  }
+  h2 {
+    padding-right: 290px;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 19px;
+    color: #fff;
+  }
+}
+
+.fdl-video-selector-active {
+  font-weight: bold;
+}
+
+.fdl-video-player {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  height: 600px;
+}
+
+.fdl-video-container {
+  flex: 1;
+  height: 100%;
+}
+
+#fdl-video-iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.fdl-video-list {
+  width: 350px;
+  background-color: white;
+  margin: 0;
+  overflow-y: auto;
+  color: black;
+  list-style-position: inside;
+  padding: 0;
+  border-left: 1px solid $border-gray;
+}
+
+.fdl-video-list li {
+  padding: 13px;
+  margin: 0;
+}
+
+.fdl-video-selector-box {
+  border-bottom: 1px solid $border-gray;
+}
+
+.fdl-video-list a {
+  text-decoration: none;
+  color: black;
+}

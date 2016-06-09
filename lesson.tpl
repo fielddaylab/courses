@@ -3,33 +3,34 @@
 <head>
   <title>Field Day Learn: {{title}}</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="css/all.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
   <script type="text/javascript" src="lesson.js"></script>
 </head>
 <body class="fdl-page-lesson fdl-tab-about">
 
 {{{navbar}}}
-
-<div class="fdl-video-section">
-  <div class="fdl-video-headers">
-    <h1>{{title}}</h1>
-    <h2>{{count-lessons}}</h2>
-  </div>
-  <div class="fdl-video-player">
-    <div class="fdl-video-container">
-      <iframe id="fdl-video-iframe" allowfullscreen></iframe>
+<div class="fdl-video-wrapper">
+  <div class="fdl-video-section">
+    <div class="fdl-video-headers">
+      <h1>{{title}}</h1>
+      <h2>{{count-lessons}}</h2>
     </div>
-    <ol class="fdl-video-list">
-      {{#videos}}
-        <div class="fdl-video-selector-box">
-          <a href="#" class="fdl-video-selector" onclick="selectVideo(this); event.preventDefault();" data-video-url="{{url}}">
-            <li>
-              {{name}}
-            </li>
-          </a>
-        </div>
-      {{/videos}}
-    </ol>
+    <div class="fdl-video-player">
+      <div class="fdl-video-container">
+        <iframe id="fdl-video-iframe" allowfullscreen></iframe>
+      </div>
+      <ol class="fdl-video-list">
+        {{#videos}}
+          <div class="fdl-video-selector-box">
+            <a href="#" class="fdl-video-selector" onclick="selectVideo(this); event.preventDefault();" data-video-url="{{url}}">
+              <li>
+                {{name}}
+              </li>
+            </a>
+          </div>
+        {{/videos}}
+      </ol>
+    </div>
   </div>
 </div>
 
@@ -51,7 +52,7 @@
   <div class="fdl-columns">
 
     <div class="fdl-column-content">
-      <h2>About this Class</h2>
+      <h2 class="about-lesson">About this Class</h2>
       {{{description}}}
       <img class="fdl-fold-image" src="{{fold-image}}" alt="">
       {{{description-cont}}}
@@ -65,7 +66,7 @@
           <div class="fdl-author-photo" style="background-image: url({{photo}});"></div>
           <div class="fdl-author-info">
             <h3>{{name}}</h3>
-            <p>{{job}}</p>
+            <p class="small">{{job}}</p>
             <p class="fdl-author-links">
               {{#links}}
                 <a href="{{url}}">{{name}}</a>

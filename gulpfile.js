@@ -2,13 +2,11 @@
 
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var concat = require('gulp-concat');
 
-gulp.task('sass', function () {
-  return gulp.src('./sass/**/*.scss')
-    .pipe(sass().on('error', sass.logError))
-    .pipe(concat('all.css'))
-    .pipe(gulp.dest('./css'));
+gulp.task('sass', function (){
+  gulp.src('./sass/styles.scss')
+    .pipe(sass())
+    .pipe(gulp.dest('./css'))
 });
 
 gulp.task('sass:watch', function () {

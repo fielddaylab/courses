@@ -1,0 +1,98 @@
+/*-- Home
+------------------------------------------*/
+.fdl-courses-carousel {
+  width: 100%;
+  height: 70vh;
+  max-height: 700px;
+  position: relative;
+}
+
+.fdl-courses-carousel-page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.fdl-courses-carousel-page-on {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.fdl-carousel-selectors {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  text-align: center;
+}
+
+.fdl-carousel-selector {
+  color: transparent;
+  width: 15px;
+  height: 15px;
+  border: 2px solid white;
+  border-radius: 999px;
+  overflow: hidden;
+  display: inline-block;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.fdl-carousel-selector-active {
+  background-color: white;
+}
+
+#fdl-carousel-page-0 {
+  background-image: url('../assets/spaceship-bg.jpg');
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+#fdl-carousel-page-1 {
+  background-color: #88b;
+}
+
+#fdl-carousel-page-2 {
+  background-color: #f8f;
+}
+
+.fdl-carousel-page-content {
+  position: absolute;
+  color: white;
+  left: 50px;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  p {
+    margin-top: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+  }
+}
+
+.fdl-courses-header {
+  text-align: center;
+  padding: 100px;
+  background-color: $bg-gray;
+}
+
+.fdl-courses-header img {
+  height: 45px;
+}
