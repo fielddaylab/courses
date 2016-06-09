@@ -15,6 +15,7 @@
 , "siftr":
   { "title": "Using Siftr for Field Work"
   , "splash-image": "http://weneedfun.com/wp-content/uploads/2016/01/Landscape-wallpapers-3.jpg"
+  , "splash-image-blur": "assets/blur-bg.jpg"
   , "author":
     { "name": "Joe Riederer"
     , "job": "Super hero science teacher and Field Day Fellow"

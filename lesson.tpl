@@ -9,7 +9,7 @@
 <body class="fdl-page-lesson fdl-tab-about">
 
 {{{navbar}}}
-<div class="fdl-video-wrapper" style="background-image: url('{{splash-image}}');">
+<div class="fdl-video-wrapper" style="background-image: url('{{splash-image-blur}}');">
   <div class="fdl-video-section">
     <div class="fdl-video-headers">
       <h1>{{title}}</h1>
