@@ -1,9 +1,15 @@
 /*-- Typography
 ------------------------------------------*/
 h1, h2, h3, h4, h5, h6, {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 p {
   font-size: 14px;
+}
+
+a {
+  letter-spacing: 3px;
+  font-size: 14px;
+  transition: all .1s ease-in-out;
 }

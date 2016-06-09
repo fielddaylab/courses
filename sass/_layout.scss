@@ -1,3 +1,5 @@
+/*-- Layout
+------------------------------------------*/
 .fdl-forum {
   width: 100%;
   height: 800px;
@@ -228,16 +230,6 @@
   margin: 20px;
 }
 
-.fdl-courses-header {
-  text-align: center;
-  padding: 50px;
-  background-color: $bg-gray;
-}
-
-.fdl-courses-header img {
-  height: 45px;
-}
-
 .fdl-courses-cards {
   display: flex;
   flex-wrap: wrap;
@@ -253,7 +245,7 @@
 }
 
 .fdl-courses-card {
-  width: 250px;
+  width: 300px;
   display: inline-block;
   background-color: white;
   margin: 10px;
@@ -261,7 +253,7 @@
 }
 
 .fdl-courses-card-img {
-  height: 150px;
+  height: 250px;
   background-color: black;
   background-size: cover;
   background-position: center;
@@ -288,97 +280,21 @@
 .fdl-courses-card-title {
   color: black;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 300;
   min-height: 70px;
+  line-height: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 30px;
   text-align: center;
   margin: 0;
+  letter-spacing: 2px;
 }
 
 .fdl-courses-card:hover .fdl-courses-card-title {
   background-color: $hover-yellow;
   color: white;
-}
-
-.fdl-courses-carousel {
-  width: 100%;
-  height: 500px;
-  position: relative;
-}
-
-.fdl-courses-carousel-page {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: gray;
-  transition-property: opacity;
-  transition-duration: 0.5s;
-  opacity: 0;
-  pointer-events: none;
-}
-
-.fdl-courses-carousel-page-on {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.fdl-carousel-selectors {
-  position: absolute;
-  width: 100%;
-  bottom: 10px;
-  text-align: center;
-}
-
-.fdl-carousel-selector {
-  color: transparent;
-  width: 15px;
-  height: 15px;
-  border: 2px solid white;
-  border-radius: 999px;
-  overflow: hidden;
-  display: inline-block;
-  transition-property: background-color;
-  transition-duration: 0.5s;
-}
-
-.fdl-carousel-selector-active {
-  background-color: white;
-}
-
-#fdl-carousel-page-0 {
-  background-image: url('../assets/spaceship-bg.jpg');
-  background-size: cover;
-  background-position: right;
-  background-repeat: no-repeat;
-}
-
-#fdl-carousel-page-1 {
-  background-color: #88b;
-}
-
-#fdl-carousel-page-2 {
-  background-color: #f8f;
-}
-
-.fdl-carousel-page-content {
-  position: absolute;
-  color: white;
-  left: 50px;
-  width: 60%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-}
-
-.fdl-carousel-page-content p {
-  margin-top: 20px;
-  line-height: 30px;
-  letter-spacing: 1px;
 }
 
 .fdl-start-button {
@@ -387,6 +303,12 @@
   padding: 10px 18px;
   border-radius: 999px;
   display: inline-block;
+  border: 2px solid $dark-text;
+  &:hover {
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+  }
 }
 
 #fdl-modal-share {
