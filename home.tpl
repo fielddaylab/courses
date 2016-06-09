@@ -15,7 +15,7 @@
     <div class="fdl-carousel-page-content">
       <h2>Location Based Games with ARIS</h2>
       <p>Whether it's an interactive tour or a scavenger hunt, learn how to build engaging games with the ARIS platform.</p>
-      <p><span class="fdl-start-button">START COURSE</span></p>
+      <p><a href="#" onclick="event.preventDefault();"><span class="fdl-start-button">START COURSE</span></a></p>
     </div>
   </div>
   <div id="fdl-carousel-page-1" class="fdl-courses-carousel-page">

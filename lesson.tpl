@@ -39,7 +39,7 @@
     <a href="#" onclick="forumTab(); event.preventDefault();" class="fdl-content-nav-forum">COURSE FORUM</a>
   </div>
   <div class="fdl-content-nav-right">
-    <a class="fdl-content-nav-share" href="#" onClick="openModal();">
+    <a class="fdl-content-nav-share" href="#" onClick="openModal(); event.preventDefault();">
       <img class="fdl-content-nav-share-icon" src="assets/share.png">
       SHARE
     </a>
@@ -151,6 +151,21 @@
     <div class="fdl-share-content fdl-share-url-content">
       <h1>Course sharing URL</h1>
       <p>Copy and paste the link below into emails, chats, or browsers.</p>
+      <div class="fdl-share-link-row">
+        <div class="fdl-share-link">
+          <span>https://fielddaylearn.org/{{url}}</span>
+          <a class="fdl-share-qr-button" href="#" onclick="event.preventDefault();"><img src="assets/qr-code.png"></a>
+        </div>
+        <a class="fdl-share-link-copy" href="#" onclick="event.preventDefault();">COPY</a>
+      </div>
+      <p>
+        <a class="fdl-share-social" href="#" onclick="event.preventDefault();">
+          <img src="assets/twitter.png">
+        </a>
+        <a class="fdl-share-social" href="#" onclick="event.preventDefault();">
+          <img src="assets/facebook.png">
+        </a>
+      </p>
     </div>
     <div class="fdl-share-content fdl-share-email-content">
       <h1>Share course in email</h1>

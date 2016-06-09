@@ -583,4 +583,49 @@ body {
 
 .fdl-share-content {
   padding: 40px;
+  color: $dark-text;
+}
+
+.fdl-share-link-row {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 0;
+}
+
+.fdl-share-link {
+  flex: 1;
+  margin-right: 25px;
+  border: 2px solid $hover-yellow;
+  padding: 12px 24px;
+  border-radius: 999px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fdl-share-qr-button img {
+  height: 23px;
+  vertical-align: middle;
+}
+
+.fdl-share-link-copy {
+  flex: 0;
+  color: white;
+  background-color: $hover-yellow;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 999px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fdl-share-social {
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.fdl-share-social img {
+  width: 55px;
 }

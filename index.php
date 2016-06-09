@@ -52,6 +52,7 @@ if (count($parts) === 1) {
   $url = $parts[0];
   if (array_key_exists($url, $lessons)) {
     $lesson = $lessons[$url];
+    $lesson['url'] = $url;
     $lesson['description'] = Markdown::defaultTransform($lesson['description']);
     $lesson['description-cont'] = Markdown::defaultTransform($lesson['description-cont']);
     $lesson['related'] = getLessons($lesson['related']);
