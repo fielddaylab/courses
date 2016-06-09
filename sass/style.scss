@@ -3,6 +3,8 @@ $border-gray: rgb(221,221,221);
 $bg-gray: rgb(246,246,243);
 $hover-yellow: rgb(243,209,60);
 $dark-text: rgb(44,48,58);
+$medium-text: rgb(89,89,89);
+$light-text: rgb(152,152,152);
 
 body {
   margin: 0;
@@ -583,7 +585,7 @@ body {
 
 .fdl-share-content {
   padding: 40px;
-  color: $dark-text;
+  color: $medium-text;
 }
 
 .fdl-share-link-row {
@@ -602,6 +604,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  color: $light-text;
 }
 
 .fdl-share-qr-button img {
@@ -609,13 +612,16 @@ body {
   vertical-align: middle;
 }
 
-.fdl-share-link-copy {
+.fdl-share-link-copy, .fdl-share-email-send {
   flex: 0;
   color: white;
   background-color: $hover-yellow;
   text-decoration: none;
   padding: 12px 24px;
   border-radius: 999px;
+}
+
+.fdl-share-link-copy {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -628,4 +634,12 @@ body {
 
 .fdl-share-social img {
   width: 55px;
+}
+
+.fdl-share-email-body {
+  color: $light-text;
+  border: 2px solid $hover-yellow;
+  margin: 30px 0;
+  padding: 0 15px;
+  border-radius: 10px;
 }

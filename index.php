@@ -48,6 +48,18 @@ function getLessons($keys) {
   return $ary;
 }
 
+$email_body = array(
+  'Hey friend!',
+  'Check out this great course at Field Day Learn.',
+  'It changed my life and made me a better person, plus I learned a lot and my biceps got super cut!',
+  '- Your secret Admirer'
+);
+$email_body_html = '';
+foreach ($email_body as $line) {
+  $email_body_html .= '<p>' . $line . '</p>';
+}
+$email_body_mailto = 'mailto:?body=' . rawurlencode(implode("\n\n", $email_body));
+
 if (count($parts) === 1) {
   $url = $parts[0];
   if (array_key_exists($url, $lessons)) {
@@ -60,6 +72,8 @@ if (count($parts) === 1) {
     $lesson['count-lessons'] = $n . ' video' . ($n === 1 ? '' : 's');
     $lesson['navbar'] = $navbar;
     $lesson['footer'] = $footer;
+    $lesson['email-body'] = $email_body_html;
+    $lesson['email-link'] = $email_body_mailto;
     echo $mustache->render(file_get_contents('lesson.tpl'), $lesson);
   } else {
     header('HTTP/1.1 404 Not Found');

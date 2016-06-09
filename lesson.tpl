@@ -170,6 +170,12 @@
     <div class="fdl-share-content fdl-share-email-content">
       <h1>Share course in email</h1>
       <p>Invite someone to check out this course!</p>
+      <div class="fdl-share-email-body">
+        {{{email-body}}}
+      </div>
+      <p>
+        <a class="fdl-share-email-send" href="{{email-link}}">SEND</a>
+      </p>
     </div>
   </div>
 </div>
