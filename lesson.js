@@ -7,6 +7,18 @@ function selectVideo(clicked) {
 
   var video = clicked.getAttribute('data-video-url');
   document.getElementById('fdl-video-iframe').setAttribute('src', video);
+
+  var index = parseInt(clicked.getAttribute('data-video-index'));
+  var descriptions = document.getElementsByClassName('fdl-video-description');
+  for (var i = 0; i < descriptions.length; i++) {
+    if (i === index) {
+      descriptions[i].classList.add('fdl-video-description-on');
+    } else {
+      descriptions[i].classList.remove('fdl-video-description-on');
+    }
+  }
+
+  document.getElementById('about-lesson').innerHTML = index === 0 ? 'About this Class' : 'About this Lesson';
 }
 
 document.addEventListener('DOMContentLoaded', function(){

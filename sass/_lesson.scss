@@ -20,7 +20,6 @@
 }
 
 .fdl-video-wrapper {
-  background-image: url('../assets/blur-bg.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -103,4 +102,12 @@
 .fdl-video-list a {
   text-decoration: none;
   color: black;
+}
+
+.fdl-video-description {
+  display: none;
+}
+
+.fdl-video-description.fdl-video-description-on {
+  display: block;
 }

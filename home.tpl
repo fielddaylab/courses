@@ -41,7 +41,7 @@
   {{#lessons}}
     <a href="{{url}}">
       <div class="fdl-courses-card">
-        <div class="fdl-courses-card-img" style="background-image: url('{{#lesson}}{{fold-image}}{{/lesson}}');">
+        <div class="fdl-courses-card-img" style="background-image: url('{{#lesson}}{{splash-image}}{{/lesson}}');">
           <div class="fdl-courses-card-arrow-box">
             <img class="fdl-courses-card-arrow" src="assets/course-arrow.png">
           </div>
