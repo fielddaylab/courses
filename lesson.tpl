@@ -158,7 +158,7 @@
       <p>Copy and paste the link below into emails, chats, or browsers.</p>
       <div class="fdl-share-link-row">
         <div class="fdl-share-link">
-          <span>https://fielddaylearn.org/{{url}}</span>
+          <span>https://fielddaylab.wisc.edu/courses/{{url}}</span>
           <a class="fdl-share-qr-button" href="#" onclick="event.preventDefault();"><img src="assets/qr-code.png"></a>
         </div>
         <a class="fdl-share-link-copy" href="#" onclick="event.preventDefault();">COPY</a>
