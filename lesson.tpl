@@ -3,7 +3,7 @@
 <head>
   <title>Field Day Learn: {{title}}</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/all.css">
   <script type="text/javascript" src="lesson.js"></script>
 </head>
 <body class="fdl-page-lesson fdl-tab-about">
