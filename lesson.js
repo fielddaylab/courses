@@ -33,3 +33,13 @@ function modalEmail() {
   document.getElementById('fdl-modal-share').classList.remove('fdl-modal-url');
   document.getElementById('fdl-modal-share').classList.add('fdl-modal-email');
 }
+
+function aboutTab() {
+  document.body.classList.add('fdl-tab-about');
+  document.body.classList.remove('fdl-tab-forum');
+}
+
+function forumTab() {
+  document.body.classList.remove('fdl-tab-about');
+  document.body.classList.add('fdl-tab-forum');
+}

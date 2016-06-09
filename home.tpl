@@ -25,9 +25,9 @@
     Page 3
   </div>
   <div class="fdl-carousel-selectors">
-    <a class="fdl-carousel-selector" href="#" onClick="selectCarousel(this);" data-carousel-page="0">1</a>
-    <a class="fdl-carousel-selector" href="#" onClick="selectCarousel(this);" data-carousel-page="1">2</a>
-    <a class="fdl-carousel-selector" href="#" onClick="selectCarousel(this);" data-carousel-page="2">3</a>
+    <a class="fdl-carousel-selector" href="#" onclick="selectCarousel(this); event.preventDefault();" data-carousel-page="0">1</a>
+    <a class="fdl-carousel-selector" href="#" onclick="selectCarousel(this); event.preventDefault();" data-carousel-page="1">2</a>
+    <a class="fdl-carousel-selector" href="#" onclick="selectCarousel(this); event.preventDefault();" data-carousel-page="2">3</a>
   </div>
 </div>
 

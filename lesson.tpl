@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script type="text/javascript" src="lesson.js"></script>
 </head>
-<body class="fdl-page-lesson">
+<body class="fdl-page-lesson fdl-tab-about">
 
 {{{navbar}}}
 
@@ -22,7 +22,7 @@
     <ol class="fdl-video-list">
       {{#videos}}
         <div class="fdl-video-selector-box">
-          <a href="#" class="fdl-video-selector" onclick="selectVideo(this);" data-video-url="{{url}}">
+          <a href="#" class="fdl-video-selector" onclick="selectVideo(this); event.preventDefault();" data-video-url="{{url}}">
             <li>
               {{name}}
             </li>
@@ -35,8 +35,8 @@
 
 <div class="fdl-content-nav">
   <div class="fdl-content-nav-left">
-    <span class="fdl-content-nav-about">ABOUT</span>
-    <a href="{{forum}}" class="fdl-content-nav-forum">COURSE FORUM</a>
+    <a href="#" onclick="aboutTab(); event.preventDefault();" class="fdl-content-nav-about">ABOUT</a>
+    <a href="#" onclick="forumTab(); event.preventDefault();" class="fdl-content-nav-forum">COURSE FORUM</a>
   </div>
   <div class="fdl-content-nav-right">
     <a class="fdl-content-nav-share" href="#" onClick="openModal();">
@@ -46,7 +46,7 @@
   </div>
 </div>
 
-<div class="fdl-content">
+<div class="fdl-content fdl-content-about">
 
   <div class="fdl-columns">
 
@@ -105,6 +105,8 @@
 
 </div>
 
+<iframe class="fdl-forum fdl-content-forum" src="{{forum}}"></iframe>
+
 <div class="fdl-courses-header">
   <img src="assets/cubes.png" alt="">
   <h1>RELATED COURSES</h1>
@@ -131,17 +133,17 @@
 
 {{{footer}}}
 
-<div id="fdl-modal-share" class="fdl-modal-off fdl-modal-url" onclick="closeModal();">
+<div id="fdl-modal-share" class="fdl-modal-off fdl-modal-url" onclick="closeModal(); event.preventDefault();">
   <div class="fdl-modal-share-box" onclick="event.stopPropagation();">
-    <a href="#" onclick="closeModal();">
+    <a href="#" onclick="closeModal(); event.preventDefault();">
       <img src="assets/modal-x.png" class="fdl-modal-share-close">
     </a>
     <div class="fdl-share-tabs">
-      <a href="#" class="fdl-share-tab-url" onclick="modalURL();">
+      <a href="#" class="fdl-share-tab-url" onclick="modalURL(); event.preventDefault();">
         <img class="fdl-share-tab-icon" src="assets/chain-link.png">
         SHARE URL
       </a>
-      <a href="#" class="fdl-share-tab-email" onclick="modalEmail();">
+      <a href="#" class="fdl-share-tab-email" onclick="modalEmail(); event.preventDefault();">
         <img class="fdl-share-tab-icon" src="assets/email.png">
         SEND EMAIL
       </a>
