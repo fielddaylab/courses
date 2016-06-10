@@ -19,7 +19,7 @@
       <div class="fdl-video-container">
         <iframe id="fdl-video-iframe" allowfullscreen></iframe>
       </div>
-      <ol class="fdl-video-list">
+      <ol class="fdl-video-list" start="0">
         {{#videos}}
           <div class="fdl-video-selector-box">
             <a href="#" class="fdl-video-selector" onclick="selectVideo(this); event.preventDefault();" data-video-url="{{url}}" data-video-index="{{index}}">
