@@ -1,18 +1,4 @@
-{ "lesson1":
-  { "title": "Lesson 1 - Learn how to make stuff"
-  , "description": "Eos inventore ipsa ipsum qui ut dolor atque. Error fugiat dolores id perspiciatis temporibus accusantium. Blanditiis tempora ut et eos id perspiciatis distinctio illo.\n\nIusto est est dicta sint quam ut. Ea vero molestiae exercitationem. Aliquam porro molestiae maiores ut architecto laborum. Rerum voluptatem illum accusantium minima sed qui voluptates. Eligendi dolorem nemo iure. Quis atque eius assumenda delectus.\n\nEarum est iste excepturi. Inventore et eius harum aliquam sed. Id reiciendis autem et molestias nihil quos. Magni inventore enim itaque harum vitae. Ea a dolorem vitae officiis quaerat."
-  , "author":
-    { "name": "David Gagnon"
-    }
-  }
-, "lesson2":
-  { "title": "Lesson 2 - Learn how to make more stuff"
-  , "description": "Sint maiores ut est qui sit tenetur. Illum vero quis eos voluptatem tenetur neque excepturi aspernatur. Doloremque sint aspernatur cum commodi et animi quo.\n\nSit et rerum quia hic. Debitis saepe iusto esse mollitia. Ea et amet labore veritatis ut. Et facere aspernatur enim.\n\nPlaceat est vitae vel molestiae qui et. Odio consequatur voluptate hic quia nisi quas eum. Accusantium similique pariatur dignissimos non quis officia dolores. Non ut eaque non voluptas non. Et omnis autem facilis pariatur enim porro quasi aliquid. Aut et id neque quibusdam."
-  , "author":
-    { "name": "David Gagnon"
-    }
-  }
-, "siftr":
+{ "siftr":
   { "title": "Introduction to Siftr"
   , "splash-image": "assets/blur-bg.jpg"
   , "splash-image-blur": "assets/blur-bg.jpg"
@@ -47,7 +33,6 @@
       , "description": "Join Jim Mathews from Field Day to learn how to use Siftr to extend learning beyond the classroom.\n\nThis course provides an introduction to Siftr, a platform designed to support and facilitate fieldwork within groups or communities, such as classrooms or organizations.\n\nIn this course you will:\n\n* Be introduced to Siftr\n\n* See how other teachers are using Siftr to help their students explore the world and make connections between what they are studying in the classroom and their community\n\n* Learn how to create your own Siftrs to do similar work with your own students\n\nSiftr ([siftr.org](http://siftr.org)) is a freely available data collection and visualization platform that allows users to upload, caption and geotag images and field observations. Uploads can be viewed as icons on a map based on their geo-location or via a photo gallery which displays thumbnail views of the images. Users can sort or \"sift\" through uploads by zooming into specific locations on the map, sorting by tags or categories, or searching by keyword. They can also comment on each other’s images and captions."
       }
     ]
-  , "forum": "http://google.com"
   , "resources":
     [ {"name": "Worksheets", "icon": "doc", "url": "http://google.com"}
     , {"name": "Slides", "icon": "slides", "url": "http://google.com"}
@@ -60,6 +45,49 @@
     , {"tag": "locative"}
     ]
   , "related": ["aris", "game-design", "unity"]
+  }
+, "play-games":
+  { "title": "Playing and Talking about Games"
+  , "splash-image": "assets/blur-bg.jpg"
+  , "splash-image-blur": "assets/blur-bg.jpg"
+  , "author":
+    { "name": "Dan Rhode"
+    , "job": "Baraboo School District"
+    , "photo": "assets/yoda.jpg"
+    , "links": []
+    }
+  , "videos":
+    [ { "name": "Intro", "url": "https://player.vimeo.com/video/171127734"
+      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games."
+      }
+    , { "name": "Discussion", "url": "https://player.vimeo.com/video/171127732"
+      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games."
+      }
+    , { "name": "Decisions", "url": "https://player.vimeo.com/video/171127726"
+      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games."
+      }
+    , { "name": "Balance", "url": "https://player.vimeo.com/video/171127731"
+      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games."
+      }
+    , { "name": "Deep Dive", "url": "https://player.vimeo.com/video/171127724"
+      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games."
+      }
+    , { "name": "Goals", "url": "https://player.vimeo.com/video/171127725"
+      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games."
+      }
+    , { "name": "Final Project", "url": "https://player.vimeo.com/video/171127723"
+      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games."
+      }
+    ]
+  , "resources":
+    [ {"name": "0. Intro slides", "icon": "slides", "url": "https://drive.google.com/open?id=1IM9VQe-XUKxYeMvSQMA0s1o6kB9aXJEsbde0VYCppAM"}
+    , {"name": "1. Discussion slides", "icon": "slides", "url": "https://drive.google.com/open?id=1ow9kQppy6tc6R_GjckVWa3g3-wNY8PpLPLfiGcsxqoA"}
+    , {"name": "2. Decisions slides", "icon": "slides", "url": "https://drive.google.com/open?id=1JAb1KP5_jfIHURi38Q4WLIxx8MAN4DakOWlQrNVja1A"}
+    , {"name": "3. Balance slides", "icon": "slides", "url": "https://drive.google.com/open?id=1koqI4sQ2rAf9g7x6cYEoxCbNHYQpCo3He4ex_9FtYVM"}
+    , {"name": "4. Deep Dive slides", "icon": "slides", "url": "https://drive.google.com/open?id=12YPCrLAb9T3S18q6o6Rp_eYRuouuQmHxvVf053Fo8fU"}
+    , {"name": "5. Goals slides", "icon": "slides", "url": "https://drive.google.com/open?id=1Ssk28SRl55t-Y-MYLI9bAdMBU3TiG0lzUXHZMW6NnYU"}
+    , {"name": "6. Final Project slides", "icon": "slides", "url": "https://drive.google.com/open?id=1Scych0Hy8m30mUSEVDJkLjwEjMtvSbloSSxnLp0aPVM"}
+    ]
   }
 , "aris":
   { "title": "Stories & Tours with Aris"

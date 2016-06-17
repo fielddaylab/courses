@@ -37,7 +37,9 @@
 <div class="fdl-content-nav">
   <div class="fdl-content-nav-left">
     <a href="#" onclick="aboutTab(); event.preventDefault();" class="fdl-content-nav-about">ABOUT</a>
-    <a href="#" onclick="forumTab(); event.preventDefault();" class="fdl-content-nav-forum">COURSE FORUM</a>
+    {{#forum}}
+      <a href="#" onclick="forumTab(); event.preventDefault();" class="fdl-content-nav-forum">COURSE FORUM</a>
+    {{/forum}}
   </div>
   <div class="fdl-content-nav-right">
     <a class="fdl-content-nav-share" href="#" onClick="openModal(); event.preventDefault();">
