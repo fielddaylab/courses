@@ -27,7 +27,7 @@ if ($navbar === false) {
   echo 'Internal error';
   die;
 }
-$navbar = $mustache->render($navbar, array('home-link' => dirname($_SERVER['PHP_SELF']) . '/'));
+$navbar = $mustache->render($navbar, array('home-link' => dirname($_SERVER['PHP_SELF'])));
 
 $footer = file_get_contents('footer.tpl');
 if ($footer === false) {
