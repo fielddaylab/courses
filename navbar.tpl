@@ -5,6 +5,7 @@
         <img src="assets/logo.png" alt="Field Day Learn">
       </a>
     </div>
+    <!--
     <div class="fdl-nav-courses">
       <a href="{{home-link}}">
         Courses
@@ -15,6 +16,7 @@
         Forums
       </a>
     </div>
+    -->
   </div>
   <div class="fdl-nav-right">
     <div class="fdl-nav-about">
