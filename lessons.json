@@ -101,9 +101,9 @@
   , "splash-image": "assets/blur-bg.jpg"
   , "splash-image-blur": "assets/blur-bg.jpg"
   , "author":
-    { "name": "David Gagnon"
-    , "job": "Director Field Day Lab"
-    , "photo": "assets/yoda.jpg"
+    { "name": "Andrew Posselt"
+    , "job": "UW Madison"
+    , "photo": "assets/andrew_posselt.jpg"
     , "links": []
     }
   , "videos":
