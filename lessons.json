@@ -167,10 +167,4 @@
     , {"name": "1. Example Doc", "icon": "doc", "url": "https://drive.google.com/open?id=blah"}
     ]
   }
-, "game-design":
-  { "title": "Intro to Game Design"
-  }
-, "unity":
-  { "title": "Developing 3D games in Unity"
-  }
 }
