@@ -107,10 +107,10 @@
     , "links": []
     }
   , "videos":
-    [ { "name": "Course Trailer", "meta": "Step 0", "url": "https://player.vimeo.com/video/ZZZ"
+    [ { "name": "Course Trailer", "meta": "Step 0", "url": "https://player.vimeo.com/video/178948033"
       , "description": "Course Trailer"
       }
-    , { "name": "What is ARIS?", "meta": "Step 1", "url": "https://player.vimeo.com/video/ZZZ"
+    , { "name": "What is ARIS?", "meta": "Step 1", "url": "https://player.vimeo.com/video/178960119"
       , "description": "#What is ARIS and What are we Making?\n\n**What is ARIS?** ARIS is a free platform that allows you to create mobile-based tours, games and interactive stories. ARIS two key parts. One part of the platform is the editor, which allows you to build things (i.e., tours, games and interactive stories). The other part is the iOS app that allows you to play things you and other people have created. The app can be downloaded for free from the app store. At the moment, ARIS only runs on iOS devices (iPod, iPad, iPhone).\n\n**Outdoor Walking Games vs. Map-based Games:** When you build something with ARIS you need to decide whether it is going to be a walking game or a map-based game. If you make something that is location-based, then players will have to physically walk to different locations in order to play. For example, you might make a tour of your neighborhood where players are required to walk to different places. You can make location-based games using GPS, QR codes (which players have you scan), or by adding secret codes that are tied to specific locations."
       }
     , { "name": "Setup", "meta": "Step 2", "url": "https://player.vimeo.com/video/178919982"
