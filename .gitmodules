@@ -1,6 +1,6 @@
 [submodule "deps/mustache"]
 	path = deps/mustache
-	url = git@github.com:bobthecow/mustache.php
+	url = https://github.com/bobthecow/mustache.php.git
 [submodule "deps/markdown"]
 	path = deps/markdown
-	url = git@github.com:michelf/php-markdown
+	url = https://github.com/michelf/php-markdown
