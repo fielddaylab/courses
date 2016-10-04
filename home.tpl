@@ -16,21 +16,21 @@
     <div class="fdl-carousel-page-content">
       <h2>ARIS Basics</h2>
       <p>Whether it's an interactive tour or a pokemon go hunt, learn the basiscs of using the platform</p>
-      <p><a href="http://localhost/courses/aris"><span class="fdl-start-button">START COURSE</span></a></p>
+      <p><a href="./aris"><span class="fdl-start-button">START COURSE</span></a></p>
     </div>
   </div>
   <div id="fdl-carousel-page-1" class="fdl-courses-carousel-page">
     <div class="fdl-carousel-page-content">
       <h2>Playing and Talking about Games</h2>
       <p>Learn how to talk about the games we play and love.</p>
-      <p><a href="http://localhost/courses/play-games"><span class="fdl-start-button">START COURSE</span></a></p>
+      <p><a href="./play-games"><span class="fdl-start-button">START COURSE</span></a></p>
     </div>
   </div>
   <div id="fdl-carousel-page-2" class="fdl-courses-carousel-page">
     <div class="fdl-carousel-page-content">
       <h2>Introduction to Siftr</h2>
       <p>Support and Facilitate FieldWork within Classrooms and Organizations.</p>
-      <p><a href="http://localhost/courses/siftr"><span class="fdl-start-button">START COURSE</span></a></p>
+      <p><a href="./siftr"><span class="fdl-start-button">START COURSE</span></a></p>
     </div>
   </div>
   <div class="fdl-carousel-selectors">
