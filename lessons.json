@@ -1,55 +1,7 @@
-{ "siftr":
-  { "title": "Introduction to Siftr"
-  , "splash-image": "assets/blur-bg.jpg"
-  , "splash-image-blur": "assets/blur-bg.jpg"
-  , "author":
-    { "name": "Jim Mathews"
-    , "job": "Educational Director, Field Day Lab"
-    , "photo": "assets/Jim.png"
-    , "links":
-      [ {"name": "Homepage", "url": "http://www.jimmathews.info/"}
-      ]
-    }
-  , "videos":
-    [ { "name": "Course Trailer", "url": "https://player.vimeo.com/video/170107222"
-      , "description": "Join Jim Mathews from Field Day to learn how to use Siftr to extend learning beyond the classroom.\n\nThis course provides an introduction to Siftr, a platform designed to support and facilitate fieldwork within groups or communities, such as classrooms or organizations.\n\nIn this course you will:\n\n* Be introduced to Siftr\n\n* See how other teachers are using Siftr to help their students explore the world and make connections between what they are studying in the classroom and their community\n\n* Learn how to create your own Siftrs to do similar work with your own students\n\nSiftr ([siftr.org](http://siftr.org)) is a freely available data collection and visualization platform that allows users to upload, caption and geotag images and field observations. Uploads can be viewed as icons on a map based on their geo-location or via a photo gallery which displays thumbnail views of the images. Users can sort or \"sift\" through uploads by zooming into specific locations on the map, sorting by tags or categories, or searching by keyword. They can also comment on each other’s images and captions."
-      }
-    , { "name": "What is Siftr?", "url": "https://player.vimeo.com/video/170107223"
-      , "description": "Join Jim Mathews from Field Day to learn how to use Siftr to extend learning beyond the classroom.\n\nThis course provides an introduction to Siftr, a platform designed to support and facilitate fieldwork within groups or communities, such as classrooms or organizations.\n\nIn this course you will:\n\n* Be introduced to Siftr\n\n* See how other teachers are using Siftr to help their students explore the world and make connections between what they are studying in the classroom and their community\n\n* Learn how to create your own Siftrs to do similar work with your own students\n\nSiftr ([siftr.org](http://siftr.org)) is a freely available data collection and visualization platform that allows users to upload, caption and geotag images and field observations. Uploads can be viewed as icons on a map based on their geo-location or via a photo gallery which displays thumbnail views of the images. Users can sort or \"sift\" through uploads by zooming into specific locations on the map, sorting by tags or categories, or searching by keyword. They can also comment on each other’s images and captions."
-      }
-    , { "name": "Viewing a Siftr", "url": "https://player.vimeo.com/video/170094157"
-      , "description": "Join Jim Mathews from Field Day to learn how to use Siftr to extend learning beyond the classroom.\n\nThis course provides an introduction to Siftr, a platform designed to support and facilitate fieldwork within groups or communities, such as classrooms or organizations.\n\nIn this course you will:\n\n* Be introduced to Siftr\n\n* See how other teachers are using Siftr to help their students explore the world and make connections between what they are studying in the classroom and their community\n\n* Learn how to create your own Siftrs to do similar work with your own students\n\nSiftr ([siftr.org](http://siftr.org)) is a freely available data collection and visualization platform that allows users to upload, caption and geotag images and field observations. Uploads can be viewed as icons on a map based on their geo-location or via a photo gallery which displays thumbnail views of the images. Users can sort or \"sift\" through uploads by zooming into specific locations on the map, sorting by tags or categories, or searching by keyword. They can also comment on each other’s images and captions."
-      }
-    , { "name": "Contributing to a Siftr", "url": "https://player.vimeo.com/video/170094857"
-      , "description": "Join Jim Mathews from Field Day to learn how to use Siftr to extend learning beyond the classroom.\n\nThis course provides an introduction to Siftr, a platform designed to support and facilitate fieldwork within groups or communities, such as classrooms or organizations.\n\nIn this course you will:\n\n* Be introduced to Siftr\n\n* See how other teachers are using Siftr to help their students explore the world and make connections between what they are studying in the classroom and their community\n\n* Learn how to create your own Siftrs to do similar work with your own students\n\nSiftr ([siftr.org](http://siftr.org)) is a freely available data collection and visualization platform that allows users to upload, caption and geotag images and field observations. Uploads can be viewed as icons on a map based on their geo-location or via a photo gallery which displays thumbnail views of the images. Users can sort or \"sift\" through uploads by zooming into specific locations on the map, sorting by tags or categories, or searching by keyword. They can also comment on each other’s images and captions."
-      }
-    , { "name": "How are people using Siftr?", "url": "https://player.vimeo.com/video/170107224"
-      , "description": "Join Jim Mathews from Field Day to learn how to use Siftr to extend learning beyond the classroom.\n\nThis course provides an introduction to Siftr, a platform designed to support and facilitate fieldwork within groups or communities, such as classrooms or organizations.\n\nIn this course you will:\n\n* Be introduced to Siftr\n\n* See how other teachers are using Siftr to help their students explore the world and make connections between what they are studying in the classroom and their community\n\n* Learn how to create your own Siftrs to do similar work with your own students\n\nSiftr ([siftr.org](http://siftr.org)) is a freely available data collection and visualization platform that allows users to upload, caption and geotag images and field observations. Uploads can be viewed as icons on a map based on their geo-location or via a photo gallery which displays thumbnail views of the images. Users can sort or \"sift\" through uploads by zooming into specific locations on the map, sorting by tags or categories, or searching by keyword. They can also comment on each other’s images and captions."
-      }
-    , { "name": "Creating you own Siftr", "url": "https://player.vimeo.com/video/170094160"
-      , "description": "Join Jim Mathews from Field Day to learn how to use Siftr to extend learning beyond the classroom.\n\nThis course provides an introduction to Siftr, a platform designed to support and facilitate fieldwork within groups or communities, such as classrooms or organizations.\n\nIn this course you will:\n\n* Be introduced to Siftr\n\n* See how other teachers are using Siftr to help their students explore the world and make connections between what they are studying in the classroom and their community\n\n* Learn how to create your own Siftrs to do similar work with your own students\n\nSiftr ([siftr.org](http://siftr.org)) is a freely available data collection and visualization platform that allows users to upload, caption and geotag images and field observations. Uploads can be viewed as icons on a map based on their geo-location or via a photo gallery which displays thumbnail views of the images. Users can sort or \"sift\" through uploads by zooming into specific locations on the map, sorting by tags or categories, or searching by keyword. They can also comment on each other’s images and captions."
-      }
-    , { "name": "Walkaways and Next Steps", "url": "https://player.vimeo.com/video/170107225"
-      , "description": "Join Jim Mathews from Field Day to learn how to use Siftr to extend learning beyond the classroom.\n\nThis course provides an introduction to Siftr, a platform designed to support and facilitate fieldwork within groups or communities, such as classrooms or organizations.\n\nIn this course you will:\n\n* Be introduced to Siftr\n\n* See how other teachers are using Siftr to help their students explore the world and make connections between what they are studying in the classroom and their community\n\n* Learn how to create your own Siftrs to do similar work with your own students\n\nSiftr ([siftr.org](http://siftr.org)) is a freely available data collection and visualization platform that allows users to upload, caption and geotag images and field observations. Uploads can be viewed as icons on a map based on their geo-location or via a photo gallery which displays thumbnail views of the images. Users can sort or \"sift\" through uploads by zooming into specific locations on the map, sorting by tags or categories, or searching by keyword. They can also comment on each other’s images and captions."
-      }
-    ]
-  , "resources":
-    [ {"name": "Worksheets", "icon": "doc", "url": "http://google.com"}
-    , {"name": "Slides", "icon": "slides", "url": "http://google.com"}
-    , {"name": "Lesson PDF", "icon": "doc", "url": "http://google.com"}
-    ]
-  , "tags":
-    [ {"tag": "research"}
-    , {"tag": "collaboration"}
-    , {"tag": "siftr"}
-    , {"tag": "locative"}
-    ]
-  , "related": ["aris", "game-design", "unity"]
-  }
-, "play-games":
+{ 
+  "play-games":
   { "title": "Playing and Talking about Games"
-  , "splash-image": "assets/blur-bg.jpg"
-  , "splash-image-blur": "assets/blur-bg.jpg"
+  , "splash-image": "assets/card-play-talk-games.jpg"
   , "author":
     { "name": "Dan Rhode"
     , "job": "Baraboo School District"
@@ -97,9 +49,8 @@
     ]
   }
 , "aris":
-  { "title": "Stories & Tours with Aris"
-  , "splash-image": "assets/blur-bg.jpg"
-  , "splash-image-blur": "assets/blur-bg.jpg"
+  { "title": "ARIS Basics"
+  , "splash-image": "assets/card-aris-basics.jpg"
   , "author":
     { "name": "Andrew Posselt"
     , "job": "UW Madison"
@@ -166,5 +117,53 @@
     [ {"name": "0. Example Slide", "icon": "slides", "url": "https://drive.google.com/open?id=blah"}
     , {"name": "1. Example Doc", "icon": "doc", "url": "https://drive.google.com/open?id=blah"}
     ]
+  }
+  ,
+    "siftr":
+  { "title": "Introduction to Siftr"
+  , "splash-image": "assets/card-siftr.jpg"
+  , "author":
+    { "name": "Jim Mathews"
+    , "job": "Educational Director, Field Day Lab"
+    , "photo": "assets/Jim.png"
+    , "links":
+      [ {"name": "Homepage", "url": "http://www.jimmathews.info/"}
+      ]
+    }
+  , "videos":
+    [ { "name": "Course Trailer", "url": "https://player.vimeo.com/video/170107222"
+      , "description": "Join Jim Mathews from Field Day to learn how to use Siftr to extend learning beyond the classroom.\n\nThis course provides an introduction to Siftr, a platform designed to support and facilitate fieldwork within groups or communities, such as classrooms or organizations.\n\nIn this course you will:\n\n* Be introduced to Siftr\n\n* See how other teachers are using Siftr to help their students explore the world and make connections between what they are studying in the classroom and their community\n\n* Learn how to create your own Siftrs to do similar work with your own students\n\nSiftr ([siftr.org](http://siftr.org)) is a freely available data collection and visualization platform that allows users to upload, caption and geotag images and field observations. Uploads can be viewed as icons on a map based on their geo-location or via a photo gallery which displays thumbnail views of the images. Users can sort or \"sift\" through uploads by zooming into specific locations on the map, sorting by tags or categories, or searching by keyword. They can also comment on each other’s images and captions."
+      }
+    , { "name": "What is Siftr?", "url": "https://player.vimeo.com/video/170107223"
+      , "description": "Join Jim Mathews from Field Day to learn how to use Siftr to extend learning beyond the classroom.\n\nThis course provides an introduction to Siftr, a platform designed to support and facilitate fieldwork within groups or communities, such as classrooms or organizations.\n\nIn this course you will:\n\n* Be introduced to Siftr\n\n* See how other teachers are using Siftr to help their students explore the world and make connections between what they are studying in the classroom and their community\n\n* Learn how to create your own Siftrs to do similar work with your own students\n\nSiftr ([siftr.org](http://siftr.org)) is a freely available data collection and visualization platform that allows users to upload, caption and geotag images and field observations. Uploads can be viewed as icons on a map based on their geo-location or via a photo gallery which displays thumbnail views of the images. Users can sort or \"sift\" through uploads by zooming into specific locations on the map, sorting by tags or categories, or searching by keyword. They can also comment on each other’s images and captions."
+      }
+    , { "name": "Viewing a Siftr", "url": "https://player.vimeo.com/video/170094157"
+      , "description": "Join Jim Mathews from Field Day to learn how to use Siftr to extend learning beyond the classroom.\n\nThis course provides an introduction to Siftr, a platform designed to support and facilitate fieldwork within groups or communities, such as classrooms or organizations.\n\nIn this course you will:\n\n* Be introduced to Siftr\n\n* See how other teachers are using Siftr to help their students explore the world and make connections between what they are studying in the classroom and their community\n\n* Learn how to create your own Siftrs to do similar work with your own students\n\nSiftr ([siftr.org](http://siftr.org)) is a freely available data collection and visualization platform that allows users to upload, caption and geotag images and field observations. Uploads can be viewed as icons on a map based on their geo-location or via a photo gallery which displays thumbnail views of the images. Users can sort or \"sift\" through uploads by zooming into specific locations on the map, sorting by tags or categories, or searching by keyword. They can also comment on each other’s images and captions."
+      }
+    , { "name": "Contributing to a Siftr", "url": "https://player.vimeo.com/video/170094857"
+      , "description": "Join Jim Mathews from Field Day to learn how to use Siftr to extend learning beyond the classroom.\n\nThis course provides an introduction to Siftr, a platform designed to support and facilitate fieldwork within groups or communities, such as classrooms or organizations.\n\nIn this course you will:\n\n* Be introduced to Siftr\n\n* See how other teachers are using Siftr to help their students explore the world and make connections between what they are studying in the classroom and their community\n\n* Learn how to create your own Siftrs to do similar work with your own students\n\nSiftr ([siftr.org](http://siftr.org)) is a freely available data collection and visualization platform that allows users to upload, caption and geotag images and field observations. Uploads can be viewed as icons on a map based on their geo-location or via a photo gallery which displays thumbnail views of the images. Users can sort or \"sift\" through uploads by zooming into specific locations on the map, sorting by tags or categories, or searching by keyword. They can also comment on each other’s images and captions."
+      }
+    , { "name": "How are people using Siftr?", "url": "https://player.vimeo.com/video/170107224"
+      , "description": "Join Jim Mathews from Field Day to learn how to use Siftr to extend learning beyond the classroom.\n\nThis course provides an introduction to Siftr, a platform designed to support and facilitate fieldwork within groups or communities, such as classrooms or organizations.\n\nIn this course you will:\n\n* Be introduced to Siftr\n\n* See how other teachers are using Siftr to help their students explore the world and make connections between what they are studying in the classroom and their community\n\n* Learn how to create your own Siftrs to do similar work with your own students\n\nSiftr ([siftr.org](http://siftr.org)) is a freely available data collection and visualization platform that allows users to upload, caption and geotag images and field observations. Uploads can be viewed as icons on a map based on their geo-location or via a photo gallery which displays thumbnail views of the images. Users can sort or \"sift\" through uploads by zooming into specific locations on the map, sorting by tags or categories, or searching by keyword. They can also comment on each other’s images and captions."
+      }
+    , { "name": "Creating you own Siftr", "url": "https://player.vimeo.com/video/170094160"
+      , "description": "Join Jim Mathews from Field Day to learn how to use Siftr to extend learning beyond the classroom.\n\nThis course provides an introduction to Siftr, a platform designed to support and facilitate fieldwork within groups or communities, such as classrooms or organizations.\n\nIn this course you will:\n\n* Be introduced to Siftr\n\n* See how other teachers are using Siftr to help their students explore the world and make connections between what they are studying in the classroom and their community\n\n* Learn how to create your own Siftrs to do similar work with your own students\n\nSiftr ([siftr.org](http://siftr.org)) is a freely available data collection and visualization platform that allows users to upload, caption and geotag images and field observations. Uploads can be viewed as icons on a map based on their geo-location or via a photo gallery which displays thumbnail views of the images. Users can sort or \"sift\" through uploads by zooming into specific locations on the map, sorting by tags or categories, or searching by keyword. They can also comment on each other’s images and captions."
+      }
+    , { "name": "Walkaways and Next Steps", "url": "https://player.vimeo.com/video/170107225"
+      , "description": "Join Jim Mathews from Field Day to learn how to use Siftr to extend learning beyond the classroom.\n\nThis course provides an introduction to Siftr, a platform designed to support and facilitate fieldwork within groups or communities, such as classrooms or organizations.\n\nIn this course you will:\n\n* Be introduced to Siftr\n\n* See how other teachers are using Siftr to help their students explore the world and make connections between what they are studying in the classroom and their community\n\n* Learn how to create your own Siftrs to do similar work with your own students\n\nSiftr ([siftr.org](http://siftr.org)) is a freely available data collection and visualization platform that allows users to upload, caption and geotag images and field observations. Uploads can be viewed as icons on a map based on their geo-location or via a photo gallery which displays thumbnail views of the images. Users can sort or \"sift\" through uploads by zooming into specific locations on the map, sorting by tags or categories, or searching by keyword. They can also comment on each other’s images and captions."
+      }
+    ]
+  , "resources":
+    [ {"name": "Worksheets", "icon": "doc", "url": "http://google.com"}
+    , {"name": "Slides", "icon": "slides", "url": "http://google.com"}
+    , {"name": "Lesson PDF", "icon": "doc", "url": "http://google.com"}
+    ]
+  , "tags":
+    [ {"tag": "research"}
+    , {"tag": "collaboration"}
+    , {"tag": "siftr"}
+    , {"tag": "locative"}
+    ]
+  , "related": ["aris", "game-design", "unity"]
   }
 }
