@@ -15,7 +15,7 @@
   <div id="fdl-carousel-page-0" class="fdl-courses-carousel-page fdl-courses-carousel-page-on">
     <div class="fdl-carousel-page-content">
       <h2>ARIS Basics</h2>
-      <p>Whether it's an interactive tour or a pokemon go hunt, learn the basiscs of using the platform</p>
+      <p>Whether it's an interactive tour or a pokemon go hunt, learn the basics of using the platform</p>
       <p><a href="./aris"><span class="fdl-start-button">START COURSE</span></a></p>
     </div>
   </div>
