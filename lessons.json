@@ -167,42 +167,71 @@
   , "related": ["aris", "game-design", "unity"]
   }
 , "games-and-learning":
-  { "title": "Games and Learning"
+  { "title": "Games and Learning: 13 Principles from James Paul Gee"
   , "splash-image": "assets/card-play-talk-games.jpg"
   , "author":
-    { "name": "David Gagnon and Jim Mathews"
+    { "name": "David Gagnon"
     , "job": "Field Day Lab"
-    , "photo": "assets/Jim.png"
+    , "photo": "assets/david-gagnon.png"
     , "links":
-      [ {"name": "Jim's Homepage", "url": "http://www.jimmathews.info/"},
+      [ 
         {"name": "David's Homepage", "url": "http://davidgagnon.wordpress.com/"}
       ]
     }
   , "videos":
-    [ { "name": "Intro", "url": ""
-      , "description": "In this course we are going to learn about why everything we know about learning tells us that videogames are an optimal learning environment. We will hear from key scholars, theorists and designers, but also keep our focus on the practical implmentation of games in today's classroom. \n\nBy the end of this course, we would hope that you would have new tools for thinking about learning, and be a critical judge of what you would call a *good* learning game."
+    [ { "name": "Introduction", "url": ""
+      , "description": "There is a lot of hype about learning games. In education, hype can result in a lot of products and buzzwords, professional development courses and online sites. This course is designed to take you deeper.\n\nTo do so, we are going to go to James Paul Gee, currently a professor at Arizona State University and a founder of the Games+Learning+Society research community.\n\nBy the end of this 30 minute course, you should be able to:\n\n* Describe how GOOD games lead to GOOD learning\n\n* Judge the quality of games that claim to result in learning\n\n* Reflect on your own teaching practice and borrow some ideas from games.\n\nThe videos used in this course were produced by the University of Wisconsin - Madison under the direction of Kurt Squire and Constance Steinkuhler."
       }
-    , { "name": "Engagment: Co-Design", "url": "https://player.vimeo.com/video/185596798"
-      , "description": "One of the first principles of engagement is codesign. In a good video game, the player's choice change the outcomes in the game. In this regard, the players and designers are working together to create an experience."
+    , { "name": "13 principles of learning in games from James Paul Gee", "url": "https://player.vimeo.com/video/185596799"
+      , "description": "In this course we will discuss a set of 13 principles of good learning that are seen in well designed games.\n\n* Empowered Learners\n\n* Problem Based Learning\n\n* Deep Understanding"
       }
-    , { "name": "Engagment: Identity", "url": "https://player.vimeo.com/video/185596797"
-      , "description": "Good games go beyond actions, but invite the player to take on and play with new identities. Gee argues that schools should do the same."
+    , { "name": "Empowering Learners 1: Codesign", "url": "https://player.vimeo.com/video/185596798"
+      , "description": "In good learning, the learner must know that what they do matters, that they have agency.\n\nGames make you an agent in a unique way. Each player uses the rules of a game in a unique way through every action they make In effect, the player and designer are codesigning the performance of a game session."
       }
-    , { "name": "Balance", "url": "https://player.vimeo.com/video/171127731"
-      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games.\n\nThis course was sponsored by the [Wisconsin Digital Learning Collaborative (WDLC)](http://dpi.wi.gov/imt/digital-learning/collaborative)."
+    , { "name": "Empowering Learners 2: Customization", "url": "https://player.vimeo.com/video/185702033"
+      , "description": "As an extension of games being good at supporting learning agency, good games make sure to support different types of players with their unique styles of playing the game. Very well designed games even invite players to try new styles and new approaches - to learn in a new way."
       }
-    , { "name": "Deep Dive", "url": "https://player.vimeo.com/video/171127724"
-      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games.\n\nThis course was sponsored by the [Wisconsin Digital Learning Collaborative (WDLC)](http://dpi.wi.gov/imt/digital-learning/collaborative)."
+    , { "name": "Empowering Learners 3: Identity", "url": "https://player.vimeo.com/video/185596797"
+      , "description": "A learner has every right to ask, “Why do I need know this? Who uses this? Why would I want to do this?”\n\nGames under stand this. They give you a role and a goal. They invite you to try on new identities with new skills goals and possibilities. "
       }
-    , { "name": "Goals", "url": "https://player.vimeo.com/video/171127725"
-      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games.\n\nThis course was sponsored by the [Wisconsin Digital Learning Collaborative (WDLC)](http://dpi.wi.gov/imt/digital-learning/collaborative)."
+    , { "name": "Empowering Learners 4: Manipulation", "url": "https://player.vimeo.com/video/185596796"
+      , "description": "Games allow you to manipulate the game world in very fine way. This leads to a connection between the player and the player’s in-game character."
       }
-    , { "name": "Final Project", "url": "https://player.vimeo.com/video/171127723"
-      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games.\n\nThis course was sponsored by the [Wisconsin Digital Learning Collaborative (WDLC)](http://dpi.wi.gov/imt/digital-learning/collaborative)."
+    , { "name": "Problem Solving 1: Sequencing", "url": "https://player.vimeo.com/video/185596795"
+      , "description": "Schools often focus on memorizing facts and not solving problems. In this lesson, Gee suggests that we should create learning environments where we USE facts to SOLVE problems.\n\nAs designers, we need to design problem sequences so that early learning equips the learner to tackle increasing challenging problems. In games, this is a matter of level design."
+      }
+    , { "name": "Problem Solving 2 : Pleasantly Frustrating", "url": "https://player.vimeo.com/video/185596792"
+      , "description": "A problem leads to learning if it has challenge, but can be accomplished. Well designed problems are at the edge of the learners “regime of competence,”  right on the edge of what they are capable of doing."
+      }
+    , { "name": "Problem Solving 3 : Cycle of Expertise", "url": "https://player.vimeo.com/video/185596787"
+      , "description": "The cycle of expertise is made of a challenge, practice that produces new knowledge/skills, and eventual mastery."
+      }
+    , { "name": "Problem Solving 4 : JIT and On Demand", "url": "https://player.vimeo.com/video/185598599"
+      , "description": "Information is effective if it is given just in time (JIT) and on demand. \n\nJust in time means: \n\n* You get it when you need it.\n\n* You get it when you can use it.\n\n* You get it when you can see how it applies.\n\nOn demand means that the learner knows they need to learn something and asks for it."
+      }
+    , { "name": "Problem Solving 5 : Fish Tanks", "url": "https://player.vimeo.com/video/185701169"
+      , "description": "The learner is overwhelmed if the system is too complex. A fish tank is a simplified system that contains only some of the factors found in the system it represents. "
+      }  
+    , { "name": "Problem Solving 6 : Sandboxes", "url": "https://player.vimeo.com/video/185596796"
+      , "description": "A sandbox is an opportunity to explore within a safe place without any danger. Before you demand a learner to be assessed and “level up,” they need time to explore."
+      }
+    , { "name": "Problem Learning 7 : Skills under Strategies", "url": "https://player.vimeo.com/video/185596802"
+      , "description": "We need to put skills under a goal or strategy. The learner isn’t simply learning and practicing a skill for it’s own sake, but toward a larger goal of solving a problem."
+      }
+    , { "name": "Deep Understanding 1 : System Thinking", "url": "https://player.vimeo.com/video/185598598"
+      , "description": "Most of the hard problems in the real world contain large, complex systems, the relationship between many variables.\n\nGames area set of interacting rules that interact to give rise to an effect. Good players make a model of the game system in their head. Games are a form of model based reasoning and a core way to teach system thinking."
+      }
+    , { "name": "Deep Understanding 2 - Meaning as Action", "url": "https://player.vimeo.com/video/185596800"
+      , "description": "In schools we often assume that the ideas we teach can be communicated through words. Gee suggests that meaning is actually made through actions, goals and experiences. \n\nWhile verbal meanings are good for passing tests, situated means are the basis of problem solving."
+      }
+    , { "name": "Conclusion", "url": "https://player.vimeo.com/video/185598601"
+      , "description": "Teachers and game designers are both designers of learning. Games can be a wonderful tool, but not the only tool. We must ask ourselves how we can design good learning across tools and approaches that support engaged, deep, problem based learning. "
       }
     ]
   , "resources":
-    [ {"name": "James Gee: Good Video Games and Good Learning", "icon": "doc", "url": "https://docs.google.com/document/d/1bJtD268dRzZvf08udQBFryKy_jGXX3kFhrC02qw1nog/edit"}
+    [ 
+      {"name": "James Gee: Good Video Games and Good Learning", "icon": "doc", "url": "https://docs.google.com/document/d/1bJtD268dRzZvf08udQBFryKy_jGXX3kFhrC02qw1nog/edit"},
+      {"name": "James Gee: What Video Games Have to Teach Us About Learning and Literacy", "icon": "doc", "url": "https://www.amazon.com/Video-Games-Learning-Literacy-Second/dp/1403984530"}
     ]
   }
 }
