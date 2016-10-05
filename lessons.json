@@ -168,18 +168,18 @@
   }
 , "games-and-learning":
   { "title": "Games and Learning: 13 Principles from James Paul Gee"
-  , "splash-image": "assets/card-play-talk-games.jpg"
+  , "splash-image": "assets/card-games-and-learning.jpg"
   , "author":
     { "name": "David Gagnon"
     , "job": "Field Day Lab"
-    , "photo": "assets/david-gagnon.png"
+    , "photo": "assets/david-gagnon.jpg"
     , "links":
       [ 
         {"name": "David's Homepage", "url": "http://davidgagnon.wordpress.com/"}
       ]
     }
   , "videos":
-    [ { "name": "Introduction", "url": ""
+    [ { "name": "Introduction", "url": "https://player.vimeo.com/video/185720448"
       , "description": "There is a lot of hype about learning games. In education, hype can result in a lot of products and buzzwords, professional development courses and online sites. This course is designed to take you deeper.\n\nTo do so, we are going to go to James Paul Gee, currently a professor at Arizona State University and a founder of the Games+Learning+Society research community.\n\nBy the end of this 30 minute course, you should be able to:\n\n* Describe how GOOD games lead to GOOD learning\n\n* Judge the quality of games that claim to result in learning\n\n* Reflect on your own teaching practice and borrow some ideas from games.\n\nThe videos used in this course were produced by the University of Wisconsin - Madison under the direction of Kurt Squire and Constance Steinkuhler."
       }
     , { "name": "13 principles of learning in games from James Paul Gee", "url": "https://player.vimeo.com/video/185596799"
@@ -231,7 +231,9 @@
   , "resources":
     [ 
       {"name": "James Gee: Good Video Games and Good Learning", "icon": "doc", "url": "https://docs.google.com/document/d/1bJtD268dRzZvf08udQBFryKy_jGXX3kFhrC02qw1nog/edit"},
-      {"name": "James Gee: What Video Games Have to Teach Us About Learning and Literacy", "icon": "doc", "url": "https://www.amazon.com/Video-Games-Learning-Literacy-Second/dp/1403984530"}
+      {"name": "James Gee: What Video Games Have to Teach Us About Learning and Literacy", "icon": "doc", "url": "https://www.amazon.com/Video-Games-Learning-Literacy-Second/dp/1403984530"},
+      {"name": "Course Forum", "icon": "doc", "url": "https://fielddaylab.wisc.edu/forums/viewforum.php?f=11"}
+
     ]
   }
 }

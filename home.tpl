@@ -21,9 +21,9 @@
   </div>
   <div id="fdl-carousel-page-1" class="fdl-courses-carousel-page">
     <div class="fdl-carousel-page-content">
-      <h2>Playing and Talking about Games</h2>
-      <p>Learn how to talk about the games we play and love.</p>
-      <p><a href="./play-games"><span class="fdl-start-button">START COURSE</span></a></p>
+      <h2>Games and Learning</h2>
+      <p>James Gee explains how good games teach so well</p>
+      <p><a href="./games-and-learning"><span class="fdl-start-button">START COURSE</span></a></p>
     </div>
   </div>
   <div id="fdl-carousel-page-2" class="fdl-courses-carousel-page">
