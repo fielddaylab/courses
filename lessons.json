@@ -1,54 +1,5 @@
 { 
-  "play-games":
-  { "title": "Playing and Talking about Games"
-  , "splash-image": "assets/card-play-talk-games.jpg"
-  , "author":
-    { "name": "Dan Rhode"
-    , "job": "Baraboo School District"
-    , "photo": "assets/yoda.jpg"
-    , "links": []
-    }
-  , "videos":
-    [ { "name": "Intro", "url": "https://player.vimeo.com/video/171127734"
-      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games.\n\nThis course was sponsored by the [Wisconsin Digital Learning Collaborative (WDLC)](http://dpi.wi.gov/imt/digital-learning/collaborative)."
-      }
-    , { "name": "Discussion", "url": "https://player.vimeo.com/video/171127732"
-      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games.\n\nThis course was sponsored by the [Wisconsin Digital Learning Collaborative (WDLC)](http://dpi.wi.gov/imt/digital-learning/collaborative)."
-      }
-    , { "name": "Decisions", "url": "https://player.vimeo.com/video/171127726"
-      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games.\n\nThis course was sponsored by the [Wisconsin Digital Learning Collaborative (WDLC)](http://dpi.wi.gov/imt/digital-learning/collaborative)."
-      }
-    , { "name": "Balance", "url": "https://player.vimeo.com/video/171127731"
-      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games.\n\nThis course was sponsored by the [Wisconsin Digital Learning Collaborative (WDLC)](http://dpi.wi.gov/imt/digital-learning/collaborative)."
-      }
-    , { "name": "Deep Dive", "url": "https://player.vimeo.com/video/171127724"
-      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games.\n\nThis course was sponsored by the [Wisconsin Digital Learning Collaborative (WDLC)](http://dpi.wi.gov/imt/digital-learning/collaborative)."
-      }
-    , { "name": "Goals", "url": "https://player.vimeo.com/video/171127725"
-      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games.\n\nThis course was sponsored by the [Wisconsin Digital Learning Collaborative (WDLC)](http://dpi.wi.gov/imt/digital-learning/collaborative)."
-      }
-    , { "name": "Final Project", "url": "https://player.vimeo.com/video/171127723"
-      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games.\n\nThis course was sponsored by the [Wisconsin Digital Learning Collaborative (WDLC)](http://dpi.wi.gov/imt/digital-learning/collaborative)."
-      }
-    ]
-  , "resources":
-    [ {"name": "0. Intro slides", "icon": "slides", "url": "https://drive.google.com/open?id=1IM9VQe-XUKxYeMvSQMA0s1o6kB9aXJEsbde0VYCppAM"}
-    , {"name": "1. Discussion slides", "icon": "slides", "url": "https://drive.google.com/open?id=1ow9kQppy6tc6R_GjckVWa3g3-wNY8PpLPLfiGcsxqoA"}
-    , {"name": "1. Discussion worksheet", "icon": "doc", "url": "https://drive.google.com/open?id=1_uBKVOa34u6GllkgneBabSa5HwhLZ4BBQPEk1dPPHAc"}
-    , {"name": "2. Decisions slides", "icon": "slides", "url": "https://drive.google.com/open?id=1JAb1KP5_jfIHURi38Q4WLIxx8MAN4DakOWlQrNVja1A"}
-    , {"name": "2. Decisions worksheet", "icon": "doc", "url": "https://drive.google.com/open?id=1yPB8pZiwG2qK4ucjP7Im9-jhjPGcYLfMHH-L3Q2vrDQ"}
-    , {"name": "3. Balance slides", "icon": "slides", "url": "https://drive.google.com/open?id=1koqI4sQ2rAf9g7x6cYEoxCbNHYQpCo3He4ex_9FtYVM"}
-    , {"name": "3. Balance worksheet", "icon": "doc", "url": "https://drive.google.com/open?id=1ZOX3PtgK2cur562euZjzF30bTEcmztD7EBVS2PzQFEM"}
-    , {"name": "4. Deep Dive slides", "icon": "slides", "url": "https://drive.google.com/open?id=12YPCrLAb9T3S18q6o6Rp_eYRuouuQmHxvVf053Fo8fU"}
-    , {"name": "4. Deep Dive worksheet", "icon": "doc", "url": "https://drive.google.com/open?id=1Q4VxiPo1H3oRBGrb92VxVhcpTXBTeZAkeqU4nC3tDB8"}
-    , {"name": "5. Goals slides", "icon": "slides", "url": "https://drive.google.com/open?id=1Ssk28SRl55t-Y-MYLI9bAdMBU3TiG0lzUXHZMW6NnYU"}
-    , {"name": "5. Goals worksheet", "icon": "doc", "url": "https://drive.google.com/open?id=1y04eNi_aNn1W-gsFmyjMQuhMlvW_nM4Zm5OPh8vKL9w"}
-    , {"name": "6. Final Project slides", "icon": "slides", "url": "https://drive.google.com/open?id=1Scych0Hy8m30mUSEVDJkLjwEjMtvSbloSSxnLp0aPVM"}
-    , {"name": "6. Final Project worksheet 1", "icon": "doc", "url": "https://drive.google.com/open?id=1qx-8hhlUrKvb9axhICtr77oM993LACf-TJ9n4yClmsI"}
-    , {"name": "6. Final Project worksheet 2", "icon": "doc", "url": "https://drive.google.com/open?id=18uelga549wRU1XQny4X2lBcyL4OqUQZJRAdbtuDGGAw"}
-    ]
-  }
-, "aris":
+  "aris":
   { "title": "ARIS Basics"
   , "splash-image": "assets/card-aris-basics.jpg"
   , "author":
@@ -118,8 +69,57 @@
     , {"name": "1. Example Doc", "icon": "doc", "url": "https://drive.google.com/open?id=blah"}
     ]
   }
-  ,
-    "siftr":
+,
+  "play-games":
+  { "title": "Playing and Talking about Games"
+  , "splash-image": "assets/card-play-talk-games.jpg"
+  , "author":
+    { "name": "Dan Rhode"
+    , "job": "Baraboo School District"
+    , "photo": "assets/yoda.jpg"
+    , "links": []
+    }
+  , "videos":
+    [ { "name": "Intro", "url": "https://player.vimeo.com/video/171127734"
+      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games.\n\nThis course was sponsored by the [Wisconsin Digital Learning Collaborative (WDLC)](http://dpi.wi.gov/imt/digital-learning/collaborative)."
+      }
+    , { "name": "Discussion", "url": "https://player.vimeo.com/video/171127732"
+      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games.\n\nThis course was sponsored by the [Wisconsin Digital Learning Collaborative (WDLC)](http://dpi.wi.gov/imt/digital-learning/collaborative)."
+      }
+    , { "name": "Decisions", "url": "https://player.vimeo.com/video/171127726"
+      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games.\n\nThis course was sponsored by the [Wisconsin Digital Learning Collaborative (WDLC)](http://dpi.wi.gov/imt/digital-learning/collaborative)."
+      }
+    , { "name": "Balance", "url": "https://player.vimeo.com/video/171127731"
+      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games.\n\nThis course was sponsored by the [Wisconsin Digital Learning Collaborative (WDLC)](http://dpi.wi.gov/imt/digital-learning/collaborative)."
+      }
+    , { "name": "Deep Dive", "url": "https://player.vimeo.com/video/171127724"
+      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games.\n\nThis course was sponsored by the [Wisconsin Digital Learning Collaborative (WDLC)](http://dpi.wi.gov/imt/digital-learning/collaborative)."
+      }
+    , { "name": "Goals", "url": "https://player.vimeo.com/video/171127725"
+      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games.\n\nThis course was sponsored by the [Wisconsin Digital Learning Collaborative (WDLC)](http://dpi.wi.gov/imt/digital-learning/collaborative)."
+      }
+    , { "name": "Final Project", "url": "https://player.vimeo.com/video/171127723"
+      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games.\n\nThis course was sponsored by the [Wisconsin Digital Learning Collaborative (WDLC)](http://dpi.wi.gov/imt/digital-learning/collaborative)."
+      }
+    ]
+  , "resources":
+    [ {"name": "0. Intro slides", "icon": "slides", "url": "https://drive.google.com/open?id=1IM9VQe-XUKxYeMvSQMA0s1o6kB9aXJEsbde0VYCppAM"}
+    , {"name": "1. Discussion slides", "icon": "slides", "url": "https://drive.google.com/open?id=1ow9kQppy6tc6R_GjckVWa3g3-wNY8PpLPLfiGcsxqoA"}
+    , {"name": "1. Discussion worksheet", "icon": "doc", "url": "https://drive.google.com/open?id=1_uBKVOa34u6GllkgneBabSa5HwhLZ4BBQPEk1dPPHAc"}
+    , {"name": "2. Decisions slides", "icon": "slides", "url": "https://drive.google.com/open?id=1JAb1KP5_jfIHURi38Q4WLIxx8MAN4DakOWlQrNVja1A"}
+    , {"name": "2. Decisions worksheet", "icon": "doc", "url": "https://drive.google.com/open?id=1yPB8pZiwG2qK4ucjP7Im9-jhjPGcYLfMHH-L3Q2vrDQ"}
+    , {"name": "3. Balance slides", "icon": "slides", "url": "https://drive.google.com/open?id=1koqI4sQ2rAf9g7x6cYEoxCbNHYQpCo3He4ex_9FtYVM"}
+    , {"name": "3. Balance worksheet", "icon": "doc", "url": "https://drive.google.com/open?id=1ZOX3PtgK2cur562euZjzF30bTEcmztD7EBVS2PzQFEM"}
+    , {"name": "4. Deep Dive slides", "icon": "slides", "url": "https://drive.google.com/open?id=12YPCrLAb9T3S18q6o6Rp_eYRuouuQmHxvVf053Fo8fU"}
+    , {"name": "4. Deep Dive worksheet", "icon": "doc", "url": "https://drive.google.com/open?id=1Q4VxiPo1H3oRBGrb92VxVhcpTXBTeZAkeqU4nC3tDB8"}
+    , {"name": "5. Goals slides", "icon": "slides", "url": "https://drive.google.com/open?id=1Ssk28SRl55t-Y-MYLI9bAdMBU3TiG0lzUXHZMW6NnYU"}
+    , {"name": "5. Goals worksheet", "icon": "doc", "url": "https://drive.google.com/open?id=1y04eNi_aNn1W-gsFmyjMQuhMlvW_nM4Zm5OPh8vKL9w"}
+    , {"name": "6. Final Project slides", "icon": "slides", "url": "https://drive.google.com/open?id=1Scych0Hy8m30mUSEVDJkLjwEjMtvSbloSSxnLp0aPVM"}
+    , {"name": "6. Final Project worksheet 1", "icon": "doc", "url": "https://drive.google.com/open?id=1qx-8hhlUrKvb9axhICtr77oM993LACf-TJ9n4yClmsI"}
+    , {"name": "6. Final Project worksheet 2", "icon": "doc", "url": "https://drive.google.com/open?id=18uelga549wRU1XQny4X2lBcyL4OqUQZJRAdbtuDGGAw"}
+    ]
+  }
+, "siftr":
   { "title": "Introduction to Siftr"
   , "splash-image": "assets/card-siftr.jpg"
   , "author":
@@ -165,5 +165,44 @@
     , {"tag": "locative"}
     ]
   , "related": ["aris", "game-design", "unity"]
+  }
+, "games-and-learning":
+  { "title": "Games and Learning"
+  , "splash-image": "assets/card-play-talk-games.jpg"
+  , "author":
+    { "name": "David Gagnon and Jim Mathews"
+    , "job": "Field Day Lab"
+    , "photo": "assets/Jim.png"
+    , "links":
+      [ {"name": "Jim's Homepage", "url": "http://www.jimmathews.info/"},
+        {"name": "David's Homepage", "url": "http://davidgagnon.wordpress.com/"}
+      ]
+    }
+  , "videos":
+    [ { "name": "Intro", "url": ""
+      , "description": "In this course we are going to learn about why everything we know about learning tells us that videogames are an optimal learning environment. We will hear from key scholars, theorists and designers, but also keep our focus on the practical implmentation of games in today's classroom. \n\nBy the end of this course, we would hope that you would have new tools for thinking about learning, and be a critical judge of what you would call a *good* learning game."
+      }
+    , { "name": "Discussion", "url": "https://player.vimeo.com/video/171127732"
+      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games.\n\nThis course was sponsored by the [Wisconsin Digital Learning Collaborative (WDLC)](http://dpi.wi.gov/imt/digital-learning/collaborative)."
+      }
+    , { "name": "Decisions", "url": "https://player.vimeo.com/video/171127726"
+      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games.\n\nThis course was sponsored by the [Wisconsin Digital Learning Collaborative (WDLC)](http://dpi.wi.gov/imt/digital-learning/collaborative)."
+      }
+    , { "name": "Balance", "url": "https://player.vimeo.com/video/171127731"
+      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games.\n\nThis course was sponsored by the [Wisconsin Digital Learning Collaborative (WDLC)](http://dpi.wi.gov/imt/digital-learning/collaborative)."
+      }
+    , { "name": "Deep Dive", "url": "https://player.vimeo.com/video/171127724"
+      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games.\n\nThis course was sponsored by the [Wisconsin Digital Learning Collaborative (WDLC)](http://dpi.wi.gov/imt/digital-learning/collaborative)."
+      }
+    , { "name": "Goals", "url": "https://player.vimeo.com/video/171127725"
+      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games.\n\nThis course was sponsored by the [Wisconsin Digital Learning Collaborative (WDLC)](http://dpi.wi.gov/imt/digital-learning/collaborative)."
+      }
+    , { "name": "Final Project", "url": "https://player.vimeo.com/video/171127723"
+      , "description": "In this game we are going to learn how to talk about the games we play and love. We will be looking at the various aspects of a game’s design, such as:\n\n* Player Decisions\n\n* Player Goals\n\n* Game Balance\n\nAt the end, we will use the vocabulary used during the course to write a description of our favorite games.\n\nThis course was sponsored by the [Wisconsin Digital Learning Collaborative (WDLC)](http://dpi.wi.gov/imt/digital-learning/collaborative)."
+      }
+    ]
+  , "resources":
+    [ {"name": "James Gee: Good Video Games and Good Learning", "icon": "doc", "url": "https://docs.google.com/document/d/1bJtD268dRzZvf08udQBFryKy_jGXX3kFhrC02qw1nog/edit"}
+    ]
   }
 }
