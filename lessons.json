@@ -249,7 +249,7 @@
       ]
     }
   , "videos":
-    [ { "name": "Introduction", "url": "https://player.vimeo.com/video/205716466"
+    [ { "name": "Introduction and Demo", "url": "https://player.vimeo.com/video/205716466"
       , "description": "Remember thos cool moving newspapers and talking paintings in the Harry Potter movies? In this short course, you will learn how to create effects just like that using the *Augmented Reality* features in ARIS.\n\nBy the end of this 10 minute course, you should be able to:\n\n* Upload your trigger images to Vuforia and download the trigger database \n\n* Upload media to ARIS to use as an AR overlay\n\n* Setup AR triggers that will show the overlayed video and launch other ARIS content.\n\nSpecial thanks to Minnesota History Center for helping develop these new features and lending us this sample content."
       }
     , { "name": "Lesson 1: Creating a Trigger Database", "url": "https://player.vimeo.com/video/205716363"
