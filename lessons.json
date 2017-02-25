@@ -236,4 +236,49 @@
 
     ]
   }
+, "aris-ar":
+  { "title": "Augmented Reality in ARIS"
+  , "splash-image": "assets/card-ar.jpg"
+  , "author":
+    { "name": "David Gagnon"
+    , "job": "Field Day Lab"
+    , "photo": "assets/david-gagnon.jpg"
+    , "links":
+      [ 
+        {"name": "David's Homepage", "url": "http://davidgagnon.wordpress.com/"}
+      ]
+    }
+  , "videos":
+    [ { "name": "Introduction", "url": "https://player.vimeo.com/video/205716466"
+      , "description": "Remember thos cool moving newspapers and talking paintings in the Harry Potter movies? In this short course, you will learn how to create effects just like that using the *Augmented Reality* features in ARIS.\n\nBy the end of this 10 minute course, you should be able to:\n\n* Upload your trigger images to Vuforia and download the trigger database \n\n* Upload media to ARIS to use as an AR overlay\n\n* Setup AR triggers that will show the overlayed video and launch other ARIS content.\n\nSpecial thanks to Minnesota History Center for helping develop these new features and lending us this sample content."
+      }
+    , { "name": "Lesson 1: Creating a Trigger Database", "url": "https://player.vimeo.com/video/205716363"
+      , "description": "The first step is to create a \"Trigger Database\" on the Vuforia developer portal."
+      }
+    , { "name": "Lesson 2: Uploading the database to ARIS", "url": "https://player.vimeo.com/video/205716336"
+      , "description": "Next, we upload the .zip file created by the Vuforia site to ARIS."
+      }
+    , { "name": "Lesson 3: Adding Media", "url": "https://player.vimeo.com/video/205716284"
+      , "description": "Now we add some media to ARIS that will be used as an AR overlay when ARIS sees the trigger image."
+      }
+    , { "name": "Lesson 4: Seting up Content", "url": "https://player.vimeo.com/video/205716266"
+      , "description": "AR Triggers are designed to launch some other ARIS content. In this lesson we quickly make a few simple plaques."
+      }
+    , { "name": "Lesson 5: Creating an AR Trigger", "url": "https://player.vimeo.com/video/205716236"
+      , "description": "With the trigger image database, the content and the media in place, we can add AR triggers to connect them all together. Note, AR triggers use locks just like all other trigger types, so an AR marker could respond differently depending on when it is used in your game."
+      }
+    , { "name": "Lesson 6: Addting the AR Tab to your game", "url": "https://player.vimeo.com/video/205716214"
+      , "description": "Now we add the *Augmented* tab to your game. Just like the *Scanner* tab, the Augmented tab opens a camera."
+      }
+    , { "name": "Lesson 7: Demo!", "url": "https://player.vimeo.com/video/205718201"
+      , "description": "Everything is now configured in the Editor. Let's demo what it looks like on the client!"
+      }
+    ]
+  , "resources":
+    [ 
+      {"name": "ARIS Editor", "icon": "doc", "url": "https://arisgames.org/editor"},
+      {"name": "Vuforia Website", "icon": "doc", "url": "https://vuforia.com"},
+      {"name": "ARIS Forum", "icon": "doc", "url": "https://fielddaylab.org/forums/viewforum.php?f=2&sid=84b4b37f706ee8dd8493719b51ccc256"}
+    ]
+  }  
 }
