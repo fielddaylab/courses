@@ -281,8 +281,8 @@
       {"name": "ARIS Forum", "icon": "doc", "url": "https://fielddaylab.org/forums/viewforum.php?f=2&sid=84b4b37f706ee8dd8493719b51ccc256"}
     ]
   } 
-, "aris-local-tour":
-  { "title": "Creating a Local Tour in ARIS"
+, "aris-neighborhood-tour":
+  { "title": "Creating a Neighborhood Tour in ARIS"
   , "splash-image": "assets/card-tour.jpg"
   , "author":
     { "name": "Jim Mathews"
@@ -323,6 +323,7 @@
     ]
   , "resources":
     [ 
+      {"name": "Course Discussion Forum", "icon": "doc", "url": "https://fielddaylab.org/forums/viewforum.php?f=17&sid=9e8c4af76a568beb03aba009cfddfe1d"},      
       {"name": "Design Challenge: Neighborhood Tour", "icon": "doc", "url": "https://docs.google.com/document/d/1wn515rMNmqoZLzoskkOeC0LvDuHKUtcwHOhtwX0nm7c/edit?usp=sharing"},
       {"name": "List of Theme/Topic Ideas", "icon": "slides", "url": "https://docs.google.com/presentation/d/1Uw9ykve-LtqJcQwOdCYnRmHiNwc0PWIE43pJEdPTVdk/edit?usp=sharing"},
       {"name": "Brainstorming Sheet", "icon": "doc", "url": "https://docs.google.com/document/d/1S5aMqEGN6FxOtSz71lm91PjJ8Zii9xz5zXlfKm-J--8/edit?usp=sharing"},
