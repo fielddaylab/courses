@@ -280,5 +280,54 @@
       {"name": "Vuforia Website", "icon": "doc", "url": "https://vuforia.com"},
       {"name": "ARIS Forum", "icon": "doc", "url": "https://fielddaylab.org/forums/viewforum.php?f=2&sid=84b4b37f706ee8dd8493719b51ccc256"}
     ]
-  }  
+  } 
+, "aris-local-tour":
+  { "title": "Creating a Local Tour in ARIS"
+  , "splash-image": "assets/card-ar.jpg"
+  , "author":
+    { "name": "Jim Mathews"
+    , "job": "Educational Director, Field Day Lab"
+    , "photo": "assets/Jim.png"
+    , "links":
+      [ {"name": "Homepage", "url": "http://www.jimmathews.info/"}
+      ]
+    }
+  , "videos":
+    [ { "name": "Introduction", "url": "https://player.vimeo.com/video/205735539"
+      , "description": "In this course you will learn how to plan and build an ARIS tour. In addition to learning more about ARIS this course will introduce you to a basic design process that you’ll be able to use for future projects. This course will take about 4 hours to complete. \n\nTo complete this course you’ll need:\n\n* A computer with Internet access\n\n* an iOS device, like an iPad, iPod Touch or iPhone that can run ARIS.\n\n* If you want to print some of the handouts, you’ll also need access to a printer.\n\nPrereq: You should have completed the ARIS 101 course before doing this course\n\nBy the end of this course you will have created a map-based tour of your neighborhood that you can share with other people.\n\nIf you need help along the way, reach out and post your questions to the forum. If you have questions about ARIS you can also checkout the ARIS Manual or use the ARIS forum. There are links to each of these in the course resources."
+      }
+    , { "name": "What is a Neighborhood Tour", "url": "https://player.vimeo.com/video/"
+      , "description": "In this lesson you will learn about a neighborhood tour and see an example."
+      }
+    , { "name": "Design Challenge", "url": "https://player.vimeo.com/video/"
+      , "description": "In this lesson you will learn about the design challenge for this course."
+      }
+    , { "name": "Picking a Theme or Topic", "url": "https://player.vimeo.com/video/205735524"
+      , "description": "In this lesson you will brainstorm and select a theme to build your tour around. "
+      }
+    , { "name": "Brainstorm People, Places and Items", "url": "https://player.vimeo.com/video/"
+      , "description": "In this lesson you will Use the Pre-Storyboarding Brainstorm to list people, places, and items you could possibly include in your tour."
+      }
+    , { "name": "Storyboard", "url": "https://player.vimeo.com/video/205735528"
+      , "description": "If you decide to share your story publicly, you should be careful not to share things about yourself that you don’t want other people to know. You should also not share specific things like the address where you live or the last names of your family and friends. Finally, make sure that you ask people for permission if you are going to include pictures that you took of them in your tour. "
+      }
+    , { "name": "Build Your Tour in ARIS ", "url": "https://player.vimeo.com/video/205735532"
+      , "description": "In this lesson you will:\n\n* Do research, conduct interviews, take photos to build media and text for your tour.\n\n* Use the ARIS editor to build your tour in ARIS.\n\n* Test your tour. Make sure that it completely works before asking someone for feedback. "
+      }
+    , { "name": "Getting Feedback", "url": "https://player.vimeo.com/video/205735534"
+      , "description": "Share your design with someone and have them give you feedback using the feedback sheet. "
+      }
+    , { "name": "Wrap-up and Next Steps", "url": "https://player.vimeo.com/video/205735537"
+      , "description": "Congratulations on finishing your tour!"
+      }
+    ]
+  , "resources":
+    [ 
+      {"name": "Design Challenge: Neighborhood Tour", "icon": "doc", "url": "https://docs.google.com/document/d/1wn515rMNmqoZLzoskkOeC0LvDuHKUtcwHOhtwX0nm7c/edit?usp=sharing"},
+      {"name": "List of Theme/Topic Ideas", "icon": "slides", "url": "https://docs.google.com/presentation/d/1Uw9ykve-LtqJcQwOdCYnRmHiNwc0PWIE43pJEdPTVdk/edit?usp=sharing"},
+      {"name": "Brainstorming Sheet", "icon": "doc", "url": "https://docs.google.com/document/d/1S5aMqEGN6FxOtSz71lm91PjJ8Zii9xz5zXlfKm-J--8/edit?usp=sharing"},
+      {"name": "Map-based Storyboard", "icon": "doc", "url": "https://docs.google.com/document/d/1pZhKiVt-ZDhs-EAg7B5Q1RCsmZA7PcuBMoL8h0K132o/edit?usp=sharing"},
+      {"name": "ARIS Tour Feedback Sheet ", "icon": "doc", "url": "https://docs.google.com/document/d/1eCQuHb8NpmD30IbUIkZBgO0scnfuHAtbPzR9OBxn7dA/edit?usp=sharing"}
+    ]
+  }     
 }
