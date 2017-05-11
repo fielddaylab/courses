@@ -9,10 +9,10 @@
     , "links": []
     }
   , "videos":
-    [ { "name": "Course Trailer", "meta": "Step 0", "url": "https://player.vimeo.com/video/178948033"
+    [ { "name": "Course Trailer", "meta": "Step 0", "url": "https://player.vimeo.com/video/216974083"
       , "description": "Course Trailer"
       }
-    , { "name": "What is ARIS?", "meta": "Step 1", "url": "https://player.vimeo.com/video/178960119"
+    , { "name": "What is ARIS?", "meta": "Step 1", "url": "https://player.vimeo.com/video/216974081"
       , "description": "#What is ARIS and What are we Making?\n\n**What is ARIS?** ARIS is a free platform that allows you to create mobile-based tours, games and interactive stories. ARIS two key parts. One part of the platform is the editor, which allows you to build things (i.e., tours, games and interactive stories). The other part is the iOS app that allows you to play things you and other people have created. The app can be downloaded for free from the app store. At the moment, ARIS only runs on iOS devices (iPod, iPad, iPhone).\n\n**Outdoor Walking Games vs. Map-based Games:** When you build something with ARIS you need to decide whether it is going to be a walking game or a map-based game. If you make something that is location-based, then players will have to physically walk to different locations in order to play. For example, you might make a tour of your neighborhood where players are required to walk to different places. You can make location-based games using GPS, QR codes (which players have you scan), or by adding secret codes that are tied to specific locations."
       }
     , { "name": "Setup", "meta": "Step 2", "url": "https://player.vimeo.com/video/178919982"
@@ -60,13 +60,15 @@
     , { "name": "Publish your Design (Optional)", "meta": "Step 16", "url": "https://player.vimeo.com/video/178919450"
       , "description": "#Publish your Design (Optional)\n\nSteps:\n\nWhile you can play all of the games you create, you can only play other people’s games if they are “published”. Publishing a game basically means that you are making it public for other people to play. So, If you want other people to play your game, you need to do the following:\n\nIn the editor click on “Game” and then “Settings”\n\nUnder “Visibility to ARIS Client” click on “Published”\n\nSave\n\nNote that if your game is called Dow Day you might want to change the title since there are other games with that same name. "
       }
-    , { "name": "Wrap Up and Next Steps", "meta": "Step 17", "url": "https://player.vimeo.com/video/ZZZ"
-      , "description": "#Wrap Up and Next Steps\n\nYou also might be interested in checking out these other courses:\n\nX\n\nY\n\nZ"
+    , { "name": "Wrap Up and Next Steps", "meta": "Step 17", "url": "https://player.vimeo.com/video/216974079"
+      , "description": "#Wrap Up and Next Steps\n\nNice Work making your first ARIS game!"
       }
     ]
   , "resources":
-    [ {"name": "0. Example Slide", "icon": "slides", "url": "https://drive.google.com/open?id=blah"}
-    , {"name": "1. Example Doc", "icon": "doc", "url": "https://drive.google.com/open?id=blah"}
+    [ {"name": "0. ARIS Website", "icon": "doc", "url": "https://arisgames.org"}
+    , {"name": "1. ARIS Manual", "icon": "doc", "url": "http://manual.arisgames.org"}
+    , {"name": "2. Printable Workbook for this Course", "icon": "doc", "url": "https://docs.google.com/document/d/134DPVmFSEA7cCIKjTMDasDzdsdluctyvl7Gl1hda96A/edit?usp=sharing"}
+    , {"name": "3. ARIS Forums", "icon": "doc", "url": "https://fielddaylab.org/forums"}
     ]
   }
 ,
