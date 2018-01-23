@@ -332,5 +332,57 @@
       {"name": "Map-based Storyboard", "icon": "doc", "url": "https://docs.google.com/document/d/1pZhKiVt-ZDhs-EAg7B5Q1RCsmZA7PcuBMoL8h0K132o/edit?usp=sharing"},
       {"name": "ARIS Tour Feedback Sheet ", "icon": "doc", "url": "https://docs.google.com/document/d/1eCQuHb8NpmD30IbUIkZBgO0scnfuHAtbPzR9OBxn7dA/edit?usp=sharing"}
     ]
+  }
+, "aris-js":
+  { "title": "Using the ARISjs scripting interface in ARIS"
+  , "splash-image": "assets/card-arisjs.jpg"
+  , "author":
+    { "name": "Phil Dougherty"
+    , "job": "Developer, Field Day Lab"
+    , "photo": "assets/phil.jpg"
+    , "links":
+      [ {"name": "Homepage", "url": "http://phildogames.com"}
+      ]
+    }
+  , "videos":
+    [ { "name": "Introduction", "url": "https://player.vimeo.com/video/223482881"
+      , "description": "In this course you will learn how to use HTML and JavaScript to expand what you can do in ARIS. This course will take about 1 hour to complete. \n\nTo complete this course you’ll need:\n\n* A computer with Internet access\n\n* an iOS device, like an iPad, iPod Touch or iPhone that can run ARIS.\n\n* If you want to print some of the handouts, you’ll also need access to a printer.\n\nPrereq: You should have completed the ARIS 101 course before doing this course\n\nBy the end of this course you will have created a simple web site that loads information from ARIS and displays on screen.\n\nIf you need help along the way, reach out and post your questions to the forum. If you have questions about ARIS you can also checkout the ARIS Manual or use the ARIS forum. There are links to each of these in the course resources."
+      }
+    , { "name": "Introducing ARISjs. What can it do for you?", "url": "https://player.vimeo.com/video/229246431"
+      , "description": "In this lesson you will learn what ARISjs can do for your games."
+      }
+    , { "name": "Intro to HTML", "url": "https://player.vimeo.com/video/223483063"
+      , "description": "In this lesson you will get a crash course in what HTML does and how it works."
+      }
+    , { "name": "Intro to JavaScaript", "url": "https://player.vimeo.com/video/223486281"
+      , "description": "In this lesson you will learn some of the basics of what Javascript is and how to use it."
+      }
+    , { "name": "The ARISjs Shell", "url": "https://player.vimeo.com/video/223487336"
+      , "description": "In this lesson you will learn how to setup your JavaScript code so it can use ARISjs commands"
+      }
+    , { "name": "Intro to ARISjs API", "url": "https://player.vimeo.com/video/223484089"
+      , "description": "Introducing the ARISjs commands you can use in your JavaScript code."
+      }
+    , { "name": "Display", "url": "https://player.vimeo.com/video/223484701"
+      , "description": "In this lesson, we will load some data from ARIS and display it on screen in HTML"
+      }
+    , { "name": "Basic Examples and Conclusion", "url": "https://player.vimeo.com/video/223483349"
+      , "description": "In this lesson, we will browse some great ARISjs examples and wrap up."
+      }
+    ]
+  , "resources":
+    [ 
+      {"name": "Course Discussion Forum", "icon": "doc", "url": "https://fielddaylab.wisc.edu/forums/viewforum.php?f=3&sid=5cd4347b82c4d05c0a72990ba20ea3e0"},      
+      {"name": "ARISjs Manual", "icon": "doc", "url": "http://manual.arisgames.org/editor/arisjs"}, 
+      {"name": "ARISjs GitHub", "icon": "doc", "url": "https://github.com/ARISGames/ARISjsExamples"},
+      {"name": "ARISjs Basic Examples", "icon": "slides", "url": "https://github.com/ARISGames/ARISjsExamples/tree/master/basic_examples"}
+    ]
+    , "tags":
+    [ {"tag": "ARIS"}
+    , {"tag": "JavaScript"}
+    , {"tag": "coding"}
+    , {"tag": "game design"}
+    ]
+  , "related": ["aris", "aris-neighborhood-tour"]  
   }     
 }
