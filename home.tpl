@@ -21,15 +21,15 @@
   </div>
   <div id="fdl-carousel-page-1" class="fdl-courses-carousel-page">
     <div class="fdl-carousel-page-content">
-      <h2>Games and Learning</h2>
-      <p>James Gee explains how good games teach so well</p>
-      <p><a href="./games-and-learning"><span class="fdl-start-button">START COURSE</span></a></p>
+      <h2>Storyboarding</h2>
+      <p>Thinking through your designs on paper</p>
+      <p><a href="./storyboarding"><span class="fdl-start-button">START COURSE</span></a></p>
     </div>
   </div>
   <div id="fdl-carousel-page-2" class="fdl-courses-carousel-page">
     <div class="fdl-carousel-page-content">
       <h2>Introduction to Siftr</h2>
-      <p>Support and Facilitate FieldWork within Classrooms and Organizations.</p>
+      <p>Support and Facilitate FieldWork within Classrooms and Organizations</p>
       <p><a href="./siftr"><span class="fdl-start-button">START COURSE</span></a></p>
     </div>
   </div>

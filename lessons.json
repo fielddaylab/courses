@@ -384,5 +384,46 @@
     , {"tag": "game design"}
     ]
   , "related": ["aris", "aris-neighborhood-tour"]  
-  }     
+  }
+, "storyboarding":
+  { "title": "Storyboarding for ARIS design"
+  , "splash-image": "assets/card-storyboarding.jpg"
+  , "author":
+    { "name": "Whitney Lewis"
+    , "job": "Learn Explore Design Lab, Utah State University"
+    , "photo": "assets/whitney.jpg"
+    , "links":
+      [ {"name": "Homepage", "url": "https://ledlab.usu.edu/whitney.html"}
+      ]
+    }
+  , "videos":
+    [ { "name": "Introduction", "url": "https://player.vimeo.com/video/259771321"
+      , "description": "Classic paper and pencil can be a great way to start brainstorming our ideas. When developing your ARIS game idea, it’s no different. In this 5-minute course, you learn how to use storyboarding and the ARIS storyboarding cards to begin developing your ARIS game ideas before building them on the computer. \n\nIn this 5-minute course, we will: \n\n* Learn what storyboarding is \n\n* Familiarize ourselves with the ARIS storyboarding materials \n\n* Go through a short demo of a storyboarding process \n\nBy the end of this course, you will be able to use this storyboarding strategy to develop your own ARIS game ideas or to facilitate others as they storyboard."
+      }
+    , { "name": "What is storyboarding?", "url": "https://player.vimeo.com/video/259771316"
+      , "description": "First, we need to learn what storyboarding is and look at an example storyboard."
+      }
+    , { "name": "ARIS Storyboarding Materials", "url": "https://player.vimeo.com/video/259771309"
+      , "description": "When using storyboarding to develop our ARIS game design, there are certain materials that will be helpful like large paper, ARIS storyboarding cards, writing utensils, and tape. \n\nWe will also review the ARIS storyboarding cards and why they are important to the storyboarding process."
+      }
+    , { "name": "Storyboarding Demo", "url": "https://player.vimeo.com/video/259771306"
+      , "description": "Now that we know what storyboarding is and are familiar with the materials, we’ll go through a short demo of a storyboarding process. \n\nRemember, there is no wrong way to storyboard as long as it will be a helpful tool for you to develop your game idea and think about how you’ll make your game in ARIS."
+      }
+    , { "name": "Wrap up", "url": "https://player.vimeo.com/video/259771303"
+      , "description": "When you finish your storyboard, you’re ready to start building your game in the ARIS editor. You can now use your storyboard as you build your game to help remember your game ideas, your game’s flow, and figure out what ARIS game objects you might use to build your game. \n\nHappy storyboarding!"
+      }
+    ]
+  , "resources":
+    [ 
+      {"name": "Materials List", "icon": "doc", "url": "https://drive.google.com/file/d/1xryfJLeRI_B82yo4eoIHmriYPi7P-h9P/view?usp=sharing"}      
+    ,  {"name": "ARIS Storyboarding cards", "icon": "doc", "url": "https://drive.google.com/file/d/1l5cfWNTAzFeNS3mzKlp9_PTnzAANjb4t/view?usp=sharing"} 
+    ,  {"name": "ARIS Basics Course", "icon": "doc", "url": "https://fielddaylab.wisc.edu/courses/aris"}
+    ]
+    , "tags":
+    [ {"tag": "ARIS"}
+    , {"tag": "design"}
+    , {"tag": "storyboarding"}
+    ]
+  , "related": ["aris", "aris-neighborhood-tour"]  
+  }         
 }

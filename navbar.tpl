@@ -12,7 +12,7 @@
   <div class="fdl-nav-left">
     <div class="fdl-nav-logo">
       <a href="{{home-link}}">
-        <img src="assets/logo.png" alt="Field Day Learn">
+        <img src="assets/logo.png" alt="Field Day Courses Logo">
       </a>
     </div>
     <!--

@@ -50,7 +50,7 @@ function getLessons($keys) {
 
 $email_body = array(
   'Hey friend!',
-  'Check out this great course at Field Day Learn.',
+  'Check out this great course at Field Day Courses.',
   'It changed my life and made me a better person, plus I learned a lot and my biceps got super cut!',
   '- Your secret Admirer'
 );

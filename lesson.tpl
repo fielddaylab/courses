@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Field Day Learn: {{title}}</title>
+  <title>Field Day Courses: {{title}}</title>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <script type="text/javascript" src="lesson.js"></script>
