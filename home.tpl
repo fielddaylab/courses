@@ -29,7 +29,7 @@
   <div id="fdl-carousel-page-2" class="fdl-courses-carousel-page">
     <div class="fdl-carousel-page-content">
       <h2>Introduction to Siftr</h2>
-      <p>Support and Facilitate FieldWork within Classrooms and Organizations</p>
+      <p>Support and Facilitate Field Work within Classrooms and Organizations</p>
       <p><a href="./siftr"><span class="fdl-start-button">START COURSE</span></a></p>
     </div>
   </div>
