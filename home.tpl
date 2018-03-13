@@ -21,7 +21,7 @@
   </div>
   <div id="fdl-carousel-page-1" class="fdl-courses-carousel-page">
     <div class="fdl-carousel-page-content">
-      <h2>Storyboarding</h2>
+      <h2>Storyboarding for ARIS Design</h2>
       <p>Thinking through your designs on paper</p>
       <p><a href="./storyboarding"><span class="fdl-start-button">START COURSE</span></a></p>
     </div>
