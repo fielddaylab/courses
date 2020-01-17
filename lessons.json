@@ -1,4 +1,4 @@
-{ 
+{
   "aris":
   { "title": "ARIS Basics"
   , "splash-image": "assets/card-aris-basics.jpg"
@@ -176,7 +176,7 @@
     , "job": "Field Day Lab"
     , "photo": "assets/david-gagnon.jpg"
     , "links":
-      [ 
+      [
         {"name": "David's Homepage", "url": "http://davidgagnon.wordpress.com/"}
       ]
     }
@@ -213,7 +213,7 @@
       }
     , { "name": "Problem Solving 5 : Fish Tanks", "url": "https://player.vimeo.com/video/185701169"
       , "description": "The learner is overwhelmed if the system is too complex. A fish tank is a simplified system that contains only some of the factors found in the system it represents. "
-      }  
+      }
     , { "name": "Problem Solving 6 : Sandboxes", "url": "https://player.vimeo.com/video/185596788"
       , "description": "A sandbox is an opportunity to explore within a safe place without any danger. Before you demand a learner to be assessed and “level up,” they need time to explore."
       }
@@ -231,7 +231,7 @@
       }
     ]
   , "resources":
-    [ 
+    [
       {"name": "James Gee: Good Video Games and Good Learning", "icon": "doc", "url": "https://docs.google.com/document/d/1bJtD268dRzZvf08udQBFryKy_jGXX3kFhrC02qw1nog/edit"},
       {"name": "James Gee: What Video Games Have to Teach Us About Learning and Literacy", "icon": "doc", "url": "https://www.amazon.com/Video-Games-Learning-Literacy-Second/dp/1403984530"},
       {"name": "Course Forum", "icon": "doc", "url": "https://fielddaylab.wisc.edu/forums/viewforum.php?f=11"}
@@ -246,7 +246,7 @@
     , "job": "Field Day Lab"
     , "photo": "assets/david-gagnon.jpg"
     , "links":
-      [ 
+      [
         {"name": "David's Homepage", "url": "http://davidgagnon.wordpress.com/"}
       ]
     }
@@ -277,12 +277,12 @@
       }
     ]
   , "resources":
-    [ 
+    [
       {"name": "ARIS Editor", "icon": "doc", "url": "https://arisgames.org/editor"},
       {"name": "Vuforia Website", "icon": "doc", "url": "https://vuforia.com"},
       {"name": "ARIS Forum", "icon": "doc", "url": "https://fielddaylab.org/forums/viewforum.php?f=2&sid=84b4b37f706ee8dd8493719b51ccc256"}
     ]
-  } 
+  }
 , "aris-neighborhood-tour":
   { "title": "Creating a Neighborhood Tour in ARIS"
   , "splash-image": "assets/card-tour.jpg"
@@ -324,8 +324,8 @@
       }
     ]
   , "resources":
-    [ 
-      {"name": "Course Discussion Forum", "icon": "doc", "url": "https://fielddaylab.org/forums/viewforum.php?f=17&sid=9e8c4af76a568beb03aba009cfddfe1d"},      
+    [
+      {"name": "Course Discussion Forum", "icon": "doc", "url": "https://fielddaylab.org/forums/viewforum.php?f=17&sid=9e8c4af76a568beb03aba009cfddfe1d"},
       {"name": "Design Challenge: Neighborhood Tour", "icon": "doc", "url": "https://docs.google.com/document/d/1wn515rMNmqoZLzoskkOeC0LvDuHKUtcwHOhtwX0nm7c/edit?usp=sharing"},
       {"name": "List of Theme/Topic Ideas", "icon": "slides", "url": "https://docs.google.com/presentation/d/1Uw9ykve-LtqJcQwOdCYnRmHiNwc0PWIE43pJEdPTVdk/edit?usp=sharing"},
       {"name": "Brainstorming Sheet", "icon": "doc", "url": "https://docs.google.com/document/d/1S5aMqEGN6FxOtSz71lm91PjJ8Zii9xz5zXlfKm-J--8/edit?usp=sharing"},
@@ -371,19 +371,19 @@
       }
     ]
   , "resources":
-    [ 
-      {"name": "Course Discussion Forum", "icon": "doc", "url": "https://fielddaylab.wisc.edu/forums/viewforum.php?f=3&sid=5cd4347b82c4d05c0a72990ba20ea3e0"},      
-      {"name": "ARISjs Manual", "icon": "doc", "url": "http://manual.arisgames.org/editor/arisjs"}, 
+    [
+      {"name": "Course Discussion Forum", "icon": "doc", "url": "https://fielddaylab.wisc.edu/forums/viewforum.php?f=3&sid=5cd4347b82c4d05c0a72990ba20ea3e0"},
+      {"name": "ARISjs Manual", "icon": "doc", "url": "http://manual.arisgames.org/editor/arisjs"},
       {"name": "ARISjs GitHub", "icon": "doc", "url": "https://github.com/ARISGames/ARISjsExamples"},
       {"name": "ARISjs Basic Examples", "icon": "slides", "url": "https://github.com/ARISGames/ARISjsExamples/tree/master/basic_examples"}
     ]
-    , "tags":
+  , "tags":
     [ {"tag": "ARIS"}
     , {"tag": "JavaScript"}
     , {"tag": "coding"}
     , {"tag": "game design"}
     ]
-  , "related": ["aris", "aris-neighborhood-tour"]  
+  , "related": ["aris", "aris-neighborhood-tour"]
   }
 , "storyboarding":
   { "title": "Storyboarding for ARIS Design"
@@ -414,16 +414,101 @@
       }
     ]
   , "resources":
-    [ 
-      {"name": "Materials List", "icon": "doc", "url": "https://drive.google.com/file/d/1xryfJLeRI_B82yo4eoIHmriYPi7P-h9P/view?usp=sharing"}      
-    ,  {"name": "ARIS Storyboarding cards", "icon": "doc", "url": "https://drive.google.com/file/d/1l5cfWNTAzFeNS3mzKlp9_PTnzAANjb4t/view?usp=sharing"} 
+    [
+      {"name": "Materials List", "icon": "doc", "url": "https://drive.google.com/file/d/1xryfJLeRI_B82yo4eoIHmriYPi7P-h9P/view?usp=sharing"}
+    ,  {"name": "ARIS Storyboarding cards", "icon": "doc", "url": "https://drive.google.com/file/d/1l5cfWNTAzFeNS3mzKlp9_PTnzAANjb4t/view?usp=sharing"}
     ,  {"name": "ARIS Basics Course", "icon": "doc", "url": "https://fielddaylab.wisc.edu/courses/aris"}
     ]
-    , "tags":
+  , "tags":
     [ {"tag": "ARIS"}
     , {"tag": "design"}
     , {"tag": "storyboarding"}
     ]
-  , "related": ["aris", "aris-neighborhood-tour"]  
-  }         
+  , "related": ["aris", "aris-neighborhood-tour"]
+  }
+, "field-work":
+  { "title": "Designing Field Work"
+  , "splash-image": "assets/card-siftr.jpg"
+  , "author":
+    { "name": "Jim Mathews"
+    , "job": "Educational Director, Field Day Lab"
+    , "photo": "assets/Jim.png"
+    , "links":
+      [ {"name": "Homepage", "url": "http://www.jimmathews.info/"}
+      ]
+    }
+  , "videos":
+    [ { "name": "Introduction", "url": "https://player.vimeo.com/video/385510384"
+      , "description": ""
+      }
+    , { "name": "What is Field Work?", "url": "https://player.vimeo.com/video/385510394"
+      , "description": ""
+      }
+    , { "name": "Fitting Field Work into the Curriculum", "url": "https://player.vimeo.com/video/385511207"
+      , "description": ""
+      }
+    , { "name": "5 Reasons to Include Field Work in Your Classroom", "url": "https://player.vimeo.com/video/385511096"
+      , "description": ""
+      }
+    , { "name": "Three Types of Field Work", "url": "https://player.vimeo.com/video/385511109"
+      , "description": ""
+      }
+    , { "name": "Designing Field Work", "url": "https://player.vimeo.com/video/385511115"
+      , "description": ""
+      }
+    , { "name": "Tools for Field Work", "url": "https://player.vimeo.com/video/385511121"
+      , "description": ""
+      }
+    , { "name": "Wrapping Up", "url": "https://player.vimeo.com/video/385511128"
+      , "description": ""
+      }
+    ]
+  , "resources":
+    []
+  , "tags":
+    [ {"tag": "research"}
+    , {"tag": "collaboration"}
+    , {"tag": "siftr"}
+    , {"tag": "locative"}
+    ]
+  , "related": ["aris", "game-design", "unity"]
+  }
+, "teach-with-games":
+  { "title": "How to Teach with Games"
+  , "splash-image": "assets/card-play-talk-games.jpg"
+  , "author":
+    { "name": "David Gagnon"
+    , "job": "Field Day Lab"
+    , "photo": "assets/david-gagnon.jpg"
+    , "links":
+      [
+        {"name": "David's Homepage", "url": "http://davidgagnon.wordpress.com/"}
+      ]
+    }
+  , "videos":
+    [ { "name": "Introduction", "url": "https://player.vimeo.com/video/385511485"
+      , "description": ""
+      }
+    , { "name": "", "url": ""
+      , "description": ""
+      }
+    , { "name": "Kinds of Learning Games", "url": "https://player.vimeo.com/video/385511771"
+      , "description": ""
+      }
+    , { "name": "Tools to Evaluate Learning Games", "url": "https://player.vimeo.com/video/385511779"
+      , "description": ""
+      }
+    , { "name": "Where to Find Good Learning Games", "url": ""
+      , "description": ""
+      }
+    , { "name": "How to Teach with Learning Games", "url": ""
+      , "description": ""
+      }
+    ]
+  , "resources":
+    []
+  , "tags":
+    []
+  , "related": []
+  }
 }
